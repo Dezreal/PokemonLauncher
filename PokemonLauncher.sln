@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2026
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "PokemonStarter", "PokemonStarter\PokemonStarter.vbproj", "{50D2ECE1-45C5-4524-B97E-77D9A6DF2544}"
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "PokemonLauncher", "PokemonLauncher\PokemonLauncher.vbproj", "{50D2ECE1-45C5-4524-B97E-77D9A6DF2544}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

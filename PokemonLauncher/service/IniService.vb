@@ -2,7 +2,7 @@
     Private iniIO As IniIO
     Private Shared ReadOnly ini As IniService = New IniService
     Private Sub New()
-        iniIO = New IniIO(Application.StartupPath + "/Pokemon.ini")
+        iniIO = New IniIO(Application.StartupPath + "/PokemonLauncher.ini")
     End Sub
     Public Shared Function GetSingletonInstance() As IniService
         Return ini
