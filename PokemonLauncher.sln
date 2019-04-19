@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27703.2026
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "PokemonLauncher", "PokemonLauncher\PokemonLauncher.vbproj", "{50D2ECE1-45C5-4524-B97E-77D9A6DF2544}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "PokemonLauncherSetup", "PokemonLauncherSetup\PokemonLauncherSetup.vdproj", "{12167A7D-52E3-4DBA-A4F2-CBD73411FF8C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,11 +17,17 @@ Global
 		{50D2ECE1-45C5-4524-B97E-77D9A6DF2544}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{50D2ECE1-45C5-4524-B97E-77D9A6DF2544}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{50D2ECE1-45C5-4524-B97E-77D9A6DF2544}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12167A7D-52E3-4DBA-A4F2-CBD73411FF8C}.Debug|Any CPU.ActiveCfg = Debug
+		{12167A7D-52E3-4DBA-A4F2-CBD73411FF8C}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {61498FC4-65FD-4C18-90CD-3E9ADA127F2F}
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 EndGlobal

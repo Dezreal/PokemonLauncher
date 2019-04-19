@@ -38,7 +38,7 @@ Partial Class About
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(196, 50)
         Me.Label1.TabIndex = 0
-        Me.Label1.Text = "Pokemon Launcher " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "v 1.0.0"
+        Me.Label1.Text = "Pokemon Launcher " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "v1.0.2.0"
         '
         'Label2
         '
@@ -56,9 +56,9 @@ Partial Class About
         Me.Label3.Font = New System.Drawing.Font("微软雅黑", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
         Me.Label3.Location = New System.Drawing.Point(32, 158)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(126, 25)
+        Me.Label3.Size = New System.Drawing.Size(132, 25)
         Me.Label3.TabIndex = 2
-        Me.Label3.Text = "就决定是你了"
+        Me.Label3.Text = "就决定是你了!"
         '
         'PictureBox1
         '
@@ -84,7 +84,7 @@ Partial Class About
         Me.MinimizeBox = False
         Me.Name = "About"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "About"
+        Me.Text = "关于"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()

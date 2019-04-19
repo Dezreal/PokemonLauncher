@@ -61,4 +61,56 @@
     Private Sub PictureBox35_Click(sender As Object, e As EventArgs) Handles PictureBox35.Click
         Processor.Start(ini.GetVal("Emulator", "VisualBoyAdvance"), ini.GetVal("ROM", "绿宝石"))
     End Sub
+
+    Private Sub 版本说明ToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles 版本说明ToolStripMenuItem.Click
+        Dim form = New VersionAbout With {.Visible = True}
+    End Sub
+
+    Private Sub PictureBox6_Click(sender As Object, e As EventArgs) Handles PictureBox22.Click
+        Processor.Start(ini.GetVal("Emulator", "VisualBoyAdvance"), ini.GetVal("ROM", "银"))
+    End Sub
+
+    Private Sub PictureBox1_Click(sender As Object, e As EventArgs) Handles PictureBox11.Click
+        Processor.Start(ini.GetVal("Emulator", "VisualBoyAdvance"), ini.GetVal("ROM", "红"))
+    End Sub
+
+    Private Sub PictureBox12_Click(sender As Object, e As EventArgs) Handles PictureBox12.Click
+        Processor.Start(ini.GetVal("Emulator", "VisualBoyAdvance"), ini.GetVal("ROM", "绿"))
+    End Sub
+
+    Private Sub PictureBox13_Click(sender As Object, e As EventArgs) Handles PictureBox13.Click
+        Processor.Start(ini.GetVal("Emulator", "VisualBoyAdvance"), ini.GetVal("ROM", "蓝"))
+    End Sub
+
+    Private Sub PictureBox14_Click(sender As Object, e As EventArgs) Handles PictureBox14.Click
+        Processor.Start(ini.GetVal("Emulator", "VisualBoyAdvance"), ini.GetVal("ROM", "皮卡丘"))
+    End Sub
+
+    Private Sub PictureBox21_Click(sender As Object, e As EventArgs) Handles PictureBox21.Click
+        Processor.Start(ini.GetVal("Emulator", "VisualBoyAdvance"), ini.GetVal("ROM", "金"))
+    End Sub
+
+    Private Sub PictureBox23_Click(sender As Object, e As EventArgs) Handles PictureBox23.Click
+        Processor.Start(ini.GetVal("Emulator", "VisualBoyAdvance"), ini.GetVal("ROM", "水晶"))
+    End Sub
+
+    Private Sub PictureBox41_Click(sender As Object, e As EventArgs) Handles PictureBox41.Click
+        Processor.Start(ini.GetVal("Emulator", "DeSmuME"), ini.GetVal("ROM", "钻石"))
+    End Sub
+
+    Private Sub PictureBox42_Click(sender As Object, e As EventArgs) Handles PictureBox42.Click
+        Processor.Start(ini.GetVal("Emulator", "DeSmuME"), ini.GetVal("ROM", "珍珠"))
+    End Sub
+
+    Private Sub PictureBox43_Click(sender As Object, e As EventArgs) Handles PictureBox43.Click
+        Processor.Start(ini.GetVal("Emulator", "DeSmuME"), ini.GetVal("ROM", "白金"))
+    End Sub
+
+    Private Sub PictureBox44_Click(sender As Object, e As EventArgs) Handles PictureBox44.Click
+        Processor.Start(ini.GetVal("Emulator", "DeSmuME"), ini.GetVal("ROM", "心金"))
+    End Sub
+
+    Private Sub PictureBox45_Click(sender As Object, e As EventArgs) Handles PictureBox45.Click
+        Processor.Start(ini.GetVal("Emulator", "DeSmuME"), ini.GetVal("ROM", "魂银"))
+    End Sub
 End Class

@@ -13,6 +13,7 @@
     <MyType>WindowsForms</MyType>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
     <PublishUrl>publish\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
@@ -23,10 +24,11 @@
     <UpdatePeriodically>false</UpdatePeriodically>
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
+    <AutorunEnabled>true</AutorunEnabled>
     <ApplicationRevision>0</ApplicationRevision>
-    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
-    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <ApplicationVersion>1.0.2.0</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
     <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -67,6 +69,21 @@
   <PropertyGroup>
     <ApplicationIcon>logo.ico</ApplicationIcon>
   </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>632BD5404B68CE167E85F8BAD8FEA5E19E6F668F</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>PokemonLauncher_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>false</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -96,6 +113,7 @@
     <Compile Include="ApplicationEvents.vb" />
     <Compile Include="dao\ExplorerDialog.vb" />
     <Compile Include="dao\IniIO.vb" />
+    <Compile Include="dao\StreamIO.vb" />
     <Compile Include="ui\About.Designer.vb">
       <DependentUpon>About.vb</DependentUpon>
     </Compile>
@@ -132,6 +150,12 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="ui\VersionAbout.Designer.vb">
+      <DependentUpon>VersionAbout.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ui\VersionAbout.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="ui\About.resx">
@@ -152,11 +176,16 @@
     <EmbeddedResource Include="ui\SettingForm.resx">
       <DependentUpon>SettingForm.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ui\VersionAbout.resx">
+      <DependentUpon>VersionAbout.vb</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <None Include="bin\Debug\Pokemon.ini" />
     <None Include="bin\Debug\PokemonLauncher.exe.config" />
-    <None Include="My Project\app.manifest" />
+    <None Include="My Project\app.manifest">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
@@ -177,20 +206,13 @@
     <None Include="obj\Debug\PokemonLauncher.vbproj.CoreCompileInputs.cache" />
     <None Include="obj\Debug\PokemonLauncher.vbproj.GenerateResource.cache" />
     <None Include="obj\Debug\PokemonLauncher.vbprojAssemblyReference.cache" />
+    <None Include="PokemonLauncher_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="bin\Debug\Newtonsoft.Json.dll" />
-    <Content Include="bin\Debug\Newtonsoft.Json.pdb" />
-    <Content Include="bin\Debug\Newtonsoft.Json.xml" />
-    <Content Include="bin\Debug\PokemonLauncher.exe" />
-    <Content Include="bin\Debug\PokemonLauncher.pdb" />
-    <Content Include="bin\Debug\PokemonLauncher.xml" />
     <Content Include="logo.ico" />
-    <Content Include="obj\Debug\PokemonLauncher.exe" />
     <Content Include="obj\Debug\PokemonLauncher.pdb" />
     <Content Include="obj\Debug\PokemonLauncher.vbproj.FileListAbsolute.txt" />
     <Content Include="obj\Debug\PokemonLauncher.xml" />
-    <Content Include="obj\Debug\TempPE\My Project.Resources.Designer.vb.dll" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="bin\Release\" />

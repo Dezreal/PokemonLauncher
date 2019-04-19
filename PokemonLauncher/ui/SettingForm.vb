@@ -13,7 +13,7 @@
 
     Private Sub UpdateComp()
         For Each item As ListViewItem In ListView1.Items
-            item.SubItems(2).Text = ini.GetVal(item.Group.Header, item.SubItems(1).Text)
+            item.SubItems(1).Text = ini.GetVal(item.Group.Header, item.Text)
         Next
     End Sub
 
@@ -22,8 +22,8 @@
         If items.Count = 1 Then
             Dim path = ExplorerDialog.OpenFile
             If path IsNot Nothing Then
-                items(0).SubItems(2).Text = path
-                ini.SetVal(items(0).Group.Header, items(0).SubItems(1).Text, path)
+                items(0).SubItems(1).Text = path
+                ini.SetVal(items(0).Group.Header, items(0).Text, path)
             End If
         End If
 
@@ -33,11 +33,16 @@
         MainForm.Enabled = True
     End Sub
 
-    'Private Sub ListView1_ColumnClick(sender As Object, e As ColumnClickEventArgs) Handles ListView1.ColumnClick
-    '    MsgBox("ColumnClick")
-    'End Sub
+    Private Sub ListView1_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ListView1.SelectedIndexChanged
 
-    'Private Sub ListView1_ItemSelectionChanged(sender As Object, e As ListViewItemSelectionChangedEventArgs) Handles ListView1.ItemSelectionChanged
-    '    MsgBox("ItemSelectionChanged")
-    'End Sub
+    End Sub
+
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        Dim view = (ListView1.View + 1) Mod 5
+        If (view = 2 Or view = 3) Then
+            view = 4
+        End If
+        ListView1.View = view
+    End Sub
+
 End Class
