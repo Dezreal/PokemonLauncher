@@ -1,2 +1,2 @@
 # PokemonLauncher
-organize your Pokemon emulators and roms with GUI
+Organize your Pokémon emulators and roms with GUI
