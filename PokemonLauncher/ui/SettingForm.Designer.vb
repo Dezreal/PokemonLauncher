@@ -27,7 +27,7 @@ Partial Class SettingForm
         Dim ListViewGroup2 As System.Windows.Forms.ListViewGroup = New System.Windows.Forms.ListViewGroup("ROM", System.Windows.Forms.HorizontalAlignment.Left)
         Dim ListViewItem1 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem(New String() {"VisualBoyAdvance", "-"}, 0)
         Dim ListViewItem2 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem(New String() {"DeSmuME", "-"}, 1)
-        Dim ListViewItem3 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem(New String() {"红", ""}, 2)
+        Dim ListViewItem3 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("红", 2)
         Dim ListViewItem4 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem(New String() {"绿", ""}, 3)
         Dim ListViewItem5 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem(New String() {"蓝", ""}, 4)
         Dim ListViewItem6 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem(New String() {"皮卡丘", ""}, 5)
@@ -44,13 +44,27 @@ Partial Class SettingForm
         Dim ListViewItem17 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem(New String() {"白金", "-"}, 16)
         Dim ListViewItem18 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem(New String() {"心金", "-"}, 17)
         Dim ListViewItem19 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem(New String() {"魂银", "-"}, 18)
+        Dim ListViewItem20 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("黑", 19)
+        Dim ListViewItem21 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("白", 20)
+        Dim ListViewItem22 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("黑2", 21)
+        Dim ListViewItem23 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("白2", 22)
+        Dim ListViewItem24 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("X", 23)
+        Dim ListViewItem25 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("Y", 24)
+        Dim ListViewItem26 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("欧米伽红宝石", 25)
+        Dim ListViewItem27 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("阿尔法蓝宝石", 26)
+        Dim ListViewItem28 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("太阳", 27)
+        Dim ListViewItem29 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("月亮", 28)
+        Dim ListViewItem30 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("究极之日", 29)
+        Dim ListViewItem31 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("究极之月", 30)
+        Dim ListViewItem32 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("剑", 31)
+        Dim ListViewItem33 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("盾", 32)
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(SettingForm))
         Me.ListView1 = New System.Windows.Forms.ListView()
         Me.ColumnHeader1 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
         Me.ColumnHeader2 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
+        Me.ImageList2 = New System.Windows.Forms.ImageList(Me.components)
         Me.ImageList1 = New System.Windows.Forms.ImageList(Me.components)
         Me.Button1 = New System.Windows.Forms.Button()
-        Me.ImageList2 = New System.Windows.Forms.ImageList(Me.components)
         Me.SuspendLayout()
         '
         'ListView1
@@ -98,7 +112,21 @@ Partial Class SettingForm
         ListViewItem18.Group = ListViewGroup2
         ListViewItem18.StateImageIndex = 0
         ListViewItem19.Group = ListViewGroup2
-        Me.ListView1.Items.AddRange(New System.Windows.Forms.ListViewItem() {ListViewItem1, ListViewItem2, ListViewItem3, ListViewItem4, ListViewItem5, ListViewItem6, ListViewItem7, ListViewItem8, ListViewItem9, ListViewItem10, ListViewItem11, ListViewItem12, ListViewItem13, ListViewItem14, ListViewItem15, ListViewItem16, ListViewItem17, ListViewItem18, ListViewItem19})
+        ListViewItem20.Group = ListViewGroup2
+        ListViewItem21.Group = ListViewGroup2
+        ListViewItem22.Group = ListViewGroup2
+        ListViewItem23.Group = ListViewGroup2
+        ListViewItem24.Group = ListViewGroup2
+        ListViewItem25.Group = ListViewGroup2
+        ListViewItem26.Group = ListViewGroup2
+        ListViewItem27.Group = ListViewGroup2
+        ListViewItem28.Group = ListViewGroup2
+        ListViewItem29.Group = ListViewGroup2
+        ListViewItem30.Group = ListViewGroup2
+        ListViewItem31.Group = ListViewGroup2
+        ListViewItem32.Group = ListViewGroup2
+        ListViewItem33.Group = ListViewGroup2
+        Me.ListView1.Items.AddRange(New System.Windows.Forms.ListViewItem() {ListViewItem1, ListViewItem2, ListViewItem3, ListViewItem4, ListViewItem5, ListViewItem6, ListViewItem7, ListViewItem8, ListViewItem9, ListViewItem10, ListViewItem11, ListViewItem12, ListViewItem13, ListViewItem14, ListViewItem15, ListViewItem16, ListViewItem17, ListViewItem18, ListViewItem19, ListViewItem20, ListViewItem21, ListViewItem22, ListViewItem23, ListViewItem24, ListViewItem25, ListViewItem26, ListViewItem27, ListViewItem28, ListViewItem29, ListViewItem30, ListViewItem31, ListViewItem32, ListViewItem33})
         Me.ListView1.LargeImageList = Me.ImageList2
         Me.ListView1.Location = New System.Drawing.Point(12, 12)
         Me.ListView1.MultiSelect = False
@@ -119,41 +147,6 @@ Partial Class SettingForm
         '
         Me.ColumnHeader2.Text = "Path"
         Me.ColumnHeader2.Width = 800
-        '
-        'ImageList1
-        '
-        Me.ImageList1.ImageStream = CType(resources.GetObject("ImageList1.ImageStream"), System.Windows.Forms.ImageListStreamer)
-        Me.ImageList1.TransparentColor = System.Drawing.Color.Transparent
-        Me.ImageList1.Images.SetKeyName(0, "VisualBoyAdvance_00001.png")
-        Me.ImageList1.Images.SetKeyName(1, "DeSmuME_v.0.9.7_x64_release_wifi_00001.png")
-        Me.ImageList1.Images.SetKeyName(2, "pic_quark_1554910187825.jpg")
-        Me.ImageList1.Images.SetKeyName(3, "pic_quark_1554910205273.jpg")
-        Me.ImageList1.Images.SetKeyName(4, "pic_quark_1554910218664.jpg")
-        Me.ImageList1.Images.SetKeyName(5, "pic_quark_1554910237007.jpg")
-        Me.ImageList1.Images.SetKeyName(6, "pic_quark_1554910345505.jpg")
-        Me.ImageList1.Images.SetKeyName(7, "pic_quark_1554910357125.jpg")
-        Me.ImageList1.Images.SetKeyName(8, "pic_quark_1554910384492.jpg")
-        Me.ImageList1.Images.SetKeyName(9, "精灵宝可梦_红宝石_日版封面.png")
-        Me.ImageList1.Images.SetKeyName(10, "精灵宝可梦_蓝宝石_日版封面.png")
-        Me.ImageList1.Images.SetKeyName(11, "精灵宝可梦_火红_日版封面.png")
-        Me.ImageList1.Images.SetKeyName(12, "精灵宝可梦_叶绿_日版封面.png")
-        Me.ImageList1.Images.SetKeyName(13, "精灵宝可梦_绿宝石_日版封面.png")
-        Me.ImageList1.Images.SetKeyName(14, "精灵宝可梦_钻石_日版封面.jpg")
-        Me.ImageList1.Images.SetKeyName(15, "精灵宝可梦_珍珠_日版封面.jpg")
-        Me.ImageList1.Images.SetKeyName(16, "精灵宝可梦_白金_日版封面.png")
-        Me.ImageList1.Images.SetKeyName(17, "精灵宝可梦_心金_日版封面.jpg")
-        Me.ImageList1.Images.SetKeyName(18, "精灵宝可梦_魂银_日版封面.jpg")
-        '
-        'Button1
-        '
-        Me.Button1.BackColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.Button1.Font = New System.Drawing.Font("微软雅黑", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
-        Me.Button1.Location = New System.Drawing.Point(731, 415)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(99, 76)
-        Me.Button1.TabIndex = 10
-        Me.Button1.Text = "切换视图"
-        Me.Button1.UseVisualStyleBackColor = False
         '
         'ImageList2
         '
@@ -178,6 +171,69 @@ Partial Class SettingForm
         Me.ImageList2.Images.SetKeyName(16, "精灵宝可梦_白金_日版封面.png")
         Me.ImageList2.Images.SetKeyName(17, "精灵宝可梦_心金_日版封面.jpg")
         Me.ImageList2.Images.SetKeyName(18, "精灵宝可梦_魂银_日版封面.jpg")
+        Me.ImageList2.Images.SetKeyName(19, "Pokemon_Black_Boxart_JP.png")
+        Me.ImageList2.Images.SetKeyName(20, "Pokemon_White_Boxart_JP.png")
+        Me.ImageList2.Images.SetKeyName(21, "Pokemon_Black_2_Boxart_JP.png")
+        Me.ImageList2.Images.SetKeyName(22, "Pokemon_White_2_Boxart_JP.png")
+        Me.ImageList2.Images.SetKeyName(23, "Pokemon_X_Boxart_JP.png")
+        Me.ImageList2.Images.SetKeyName(24, "Pokemon_Y_Boxart_JP.png")
+        Me.ImageList2.Images.SetKeyName(25, "Omegaruby_Boxart_JP.png")
+        Me.ImageList2.Images.SetKeyName(26, "Alphasapphire_Boxart_JP.png")
+        Me.ImageList2.Images.SetKeyName(27, "精靈寶可夢太陽_封面_繁體中文.png")
+        Me.ImageList2.Images.SetKeyName(28, "精靈寶可夢月亮_封面_繁體中文.png")
+        Me.ImageList2.Images.SetKeyName(29, "精靈寶可夢究極之日_封面_繁體中文.png")
+        Me.ImageList2.Images.SetKeyName(30, "精靈寶可夢究極之月_封面_繁體中文.png")
+        Me.ImageList2.Images.SetKeyName(31, "寶可夢_劍_封面_繁體中文.png")
+        Me.ImageList2.Images.SetKeyName(32, "寶可夢_盾_封面_繁體中文.png")
+        '
+        'ImageList1
+        '
+        Me.ImageList1.ImageStream = CType(resources.GetObject("ImageList1.ImageStream"), System.Windows.Forms.ImageListStreamer)
+        Me.ImageList1.TransparentColor = System.Drawing.Color.Transparent
+        Me.ImageList1.Images.SetKeyName(0, "VisualBoyAdvance_00001.png")
+        Me.ImageList1.Images.SetKeyName(1, "DeSmuME_v.0.9.7_x64_release_wifi_00001.png")
+        Me.ImageList1.Images.SetKeyName(2, "pic_quark_1554910187825.jpg")
+        Me.ImageList1.Images.SetKeyName(3, "pic_quark_1554910205273.jpg")
+        Me.ImageList1.Images.SetKeyName(4, "pic_quark_1554910218664.jpg")
+        Me.ImageList1.Images.SetKeyName(5, "pic_quark_1554910237007.jpg")
+        Me.ImageList1.Images.SetKeyName(6, "pic_quark_1554910345505.jpg")
+        Me.ImageList1.Images.SetKeyName(7, "pic_quark_1554910357125.jpg")
+        Me.ImageList1.Images.SetKeyName(8, "pic_quark_1554910384492.jpg")
+        Me.ImageList1.Images.SetKeyName(9, "精灵宝可梦_红宝石_日版封面.png")
+        Me.ImageList1.Images.SetKeyName(10, "精灵宝可梦_蓝宝石_日版封面.png")
+        Me.ImageList1.Images.SetKeyName(11, "精灵宝可梦_火红_日版封面.png")
+        Me.ImageList1.Images.SetKeyName(12, "精灵宝可梦_叶绿_日版封面.png")
+        Me.ImageList1.Images.SetKeyName(13, "精灵宝可梦_绿宝石_日版封面.png")
+        Me.ImageList1.Images.SetKeyName(14, "精灵宝可梦_钻石_日版封面.jpg")
+        Me.ImageList1.Images.SetKeyName(15, "精灵宝可梦_珍珠_日版封面.jpg")
+        Me.ImageList1.Images.SetKeyName(16, "精灵宝可梦_白金_日版封面.png")
+        Me.ImageList1.Images.SetKeyName(17, "精灵宝可梦_心金_日版封面.jpg")
+        Me.ImageList1.Images.SetKeyName(18, "精灵宝可梦_魂银_日版封面.jpg")
+        Me.ImageList1.Images.SetKeyName(19, "Pokemon_Black_Boxart_JP.png")
+        Me.ImageList1.Images.SetKeyName(20, "Pokemon_White_Boxart_JP.png")
+        Me.ImageList1.Images.SetKeyName(21, "Pokemon_Black_2_Boxart_JP.png")
+        Me.ImageList1.Images.SetKeyName(22, "Pokemon_White_2_Boxart_JP.png")
+        Me.ImageList1.Images.SetKeyName(23, "Pokemon_X_Boxart_JP.png")
+        Me.ImageList1.Images.SetKeyName(24, "Pokemon_Y_Boxart_JP.png")
+        Me.ImageList1.Images.SetKeyName(25, "Omegaruby_Boxart_JP.png")
+        Me.ImageList1.Images.SetKeyName(26, "Alphasapphire_Boxart_JP.png")
+        Me.ImageList1.Images.SetKeyName(27, "精靈寶可夢太陽_封面_繁體中文.png")
+        Me.ImageList1.Images.SetKeyName(28, "精靈寶可夢月亮_封面_繁體中文.png")
+        Me.ImageList1.Images.SetKeyName(29, "精靈寶可夢究極之日_封面_繁體中文.png")
+        Me.ImageList1.Images.SetKeyName(30, "精靈寶可夢究極之月_封面_繁體中文.png")
+        Me.ImageList1.Images.SetKeyName(31, "寶可夢_劍_封面_繁體中文.png")
+        Me.ImageList1.Images.SetKeyName(32, "寶可夢_盾_封面_繁體中文.png")
+        '
+        'Button1
+        '
+        Me.Button1.BackColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.Button1.Font = New System.Drawing.Font("微软雅黑", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
+        Me.Button1.Location = New System.Drawing.Point(731, 415)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(99, 76)
+        Me.Button1.TabIndex = 10
+        Me.Button1.Text = "切换视图"
+        Me.Button1.UseVisualStyleBackColor = False
         '
         'SettingForm
         '

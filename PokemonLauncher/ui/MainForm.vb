@@ -113,4 +113,61 @@
     Private Sub PictureBox45_Click(sender As Object, e As EventArgs) Handles PictureBox45.Click
         Processor.Start(ini.GetVal("Emulator", "DeSmuME"), ini.GetVal("ROM", "魂银"))
     End Sub
+
+    Private Sub PictureBox51_Click(sender As Object, e As EventArgs) Handles PictureBox51.Click
+        Processor.Start(ini.GetVal("Emulator", "DeSmuME"), ini.GetVal("ROM", "黑"))
+    End Sub
+
+    Private Sub PictureBox52_Click(sender As Object, e As EventArgs) Handles PictureBox52.Click
+        Processor.Start(ini.GetVal("Emulator", "DeSmuME"), ini.GetVal("ROM", "白"))
+    End Sub
+
+    Private Sub PictureBox53_Click(sender As Object, e As EventArgs) Handles PictureBox53.Click
+        Processor.Start(ini.GetVal("Emulator", "DeSmuME"), ini.GetVal("ROM", "黑2"))
+    End Sub
+
+    Private Sub PictureBox54_Click(sender As Object, e As EventArgs) Handles PictureBox54.Click
+        Processor.Start(ini.GetVal("Emulator", "DeSmuME"), ini.GetVal("ROM", "白2"))
+    End Sub
+
+    Private Sub PictureBox61_Click(sender As Object, e As EventArgs) Handles PictureBox61.Click
+        Processor.Start(ini.GetVal("Emulator", "3ds"), ini.GetVal("ROM", "X"))
+    End Sub
+
+    Private Sub PictureBox62_Click(sender As Object, e As EventArgs) Handles PictureBox62.Click
+        Processor.Start(ini.GetVal("Emulator", "3ds"), ini.GetVal("ROM", "Y"))
+    End Sub
+
+    Private Sub PictureBox63_Click(sender As Object, e As EventArgs) Handles PictureBox63.Click
+        Processor.Start(ini.GetVal("Emulator", "3ds"), ini.GetVal("ROM", "欧米伽红宝石"))
+    End Sub
+
+    Private Sub PictureBox64_Click(sender As Object, e As EventArgs) Handles PictureBox64.Click
+        Processor.Start(ini.GetVal("Emulator", "3ds"), ini.GetVal("ROM", "阿尔法蓝宝石"))
+    End Sub
+
+    Private Sub PictureBox71_Click(sender As Object, e As EventArgs) Handles PictureBox71.Click
+        Processor.Start(ini.GetVal("Emulator", "3ds"), ini.GetVal("ROM", "太阳"))
+    End Sub
+
+    Private Sub PictureBox72_Click(sender As Object, e As EventArgs) Handles PictureBox72.Click
+        Processor.Start(ini.GetVal("Emulator", "3ds"), ini.GetVal("ROM", "月亮"))
+    End Sub
+
+    Private Sub PictureBox73_Click(sender As Object, e As EventArgs) Handles PictureBox73.Click
+        Processor.Start(ini.GetVal("Emulator", "3ds"), ini.GetVal("ROM", "究极之日"))
+    End Sub
+
+    Private Sub PictureBox74_Click(sender As Object, e As EventArgs) Handles PictureBox74.Click
+        Processor.Start(ini.GetVal("Emulator", "3ds"), ini.GetVal("ROM", "究极之月"))
+    End Sub
+
+    Private Sub PictureBox81_Click(sender As Object, e As EventArgs) Handles PictureBox81.Click
+        Processor.Start(ini.GetVal("Emulator", "switch"), ini.GetVal("ROM", "剑"))
+    End Sub
+
+    Private Sub PictureBox82_Click(sender As Object, e As EventArgs) Handles PictureBox82.Click
+        Processor.Start(ini.GetVal("Emulator", "switch"), ini.GetVal("ROM", "盾"))
+    End Sub
+
 End Class
