@@ -38,7 +38,7 @@ Partial Class About
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(196, 50)
         Me.Label1.TabIndex = 0
-        Me.Label1.Text = "Pokemon Launcher " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "v1.0.2.0"
+        Me.Label1.Text = "Pokemon Launcher " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "v1.0.2.1"
         '
         'Label2
         '

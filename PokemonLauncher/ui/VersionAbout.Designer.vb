@@ -30,7 +30,7 @@ Partial Class VersionAbout
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("微软雅黑", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
-        Me.Label1.Location = New System.Drawing.Point(33, 37)
+        Me.Label1.Location = New System.Drawing.Point(33, 26)
         Me.Label1.MaximumSize = New System.Drawing.Size(271, 0)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(0, 20)
@@ -48,7 +48,7 @@ Partial Class VersionAbout
         Me.MinimizeBox = False
         Me.Name = "VersionAbout"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "V1.0.2.0"
+        Me.Text = "V1.0.2.1"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 

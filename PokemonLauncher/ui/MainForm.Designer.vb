@@ -50,19 +50,30 @@ Partial Class MainForm
         Me.PictureBox31 = New System.Windows.Forms.PictureBox()
         Me.PictureBox34 = New System.Windows.Forms.PictureBox()
         Me.TabPage4 = New System.Windows.Forms.TabPage()
-        Me.TabPage5 = New System.Windows.Forms.TabPage()
-        Me.TabPage6 = New System.Windows.Forms.TabPage()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.TabPage7 = New System.Windows.Forms.TabPage()
-        Me.TabPage8 = New System.Windows.Forms.TabPage()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.ToolTip1 = New System.Windows.Forms.ToolTip(Me.components)
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.PictureBox41 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox42 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox43 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox44 = New System.Windows.Forms.PictureBox()
         Me.PictureBox45 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox44 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox43 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox42 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox41 = New System.Windows.Forms.PictureBox()
+        Me.TabPage5 = New System.Windows.Forms.TabPage()
+        Me.PictureBox54 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox53 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox52 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox51 = New System.Windows.Forms.PictureBox()
+        Me.TabPage6 = New System.Windows.Forms.TabPage()
+        Me.PictureBox64 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox63 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox62 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox61 = New System.Windows.Forms.PictureBox()
+        Me.TabPage7 = New System.Windows.Forms.TabPage()
+        Me.PictureBox74 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox73 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox72 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox71 = New System.Windows.Forms.PictureBox()
+        Me.TabPage8 = New System.Windows.Forms.TabPage()
+        Me.PictureBox82 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox81 = New System.Windows.Forms.PictureBox()
+        Me.ToolTip1 = New System.Windows.Forms.ToolTip(Me.components)
         Me.MenuStrip1.SuspendLayout()
         Me.GenerationTab.SuspendLayout()
         Me.TabPage1.SuspendLayout()
@@ -81,14 +92,29 @@ Partial Class MainForm
         CType(Me.PictureBox31, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox34, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.TabPage4.SuspendLayout()
-        Me.TabPage6.SuspendLayout()
-        Me.TabPage7.SuspendLayout()
-        Me.TabPage8.SuspendLayout()
-        CType(Me.PictureBox41, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox42, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox43, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox44, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox45, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox44, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox43, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox42, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox41, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.TabPage5.SuspendLayout()
+        CType(Me.PictureBox54, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox53, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox52, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox51, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.TabPage6.SuspendLayout()
+        CType(Me.PictureBox64, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox63, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox62, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox61, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.TabPage7.SuspendLayout()
+        CType(Me.PictureBox74, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox73, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox72, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox71, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.TabPage8.SuspendLayout()
+        CType(Me.PictureBox82, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox81, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'MenuStrip1
@@ -379,121 +405,17 @@ Partial Class MainForm
         Me.TabPage4.TabIndex = 3
         Me.TabPage4.Text = "第四世代"
         '
-        'TabPage5
+        'PictureBox45
         '
-        Me.TabPage5.BackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.TabPage5.Location = New System.Drawing.Point(4, 29)
-        Me.TabPage5.Name = "TabPage5"
-        Me.TabPage5.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage5.Size = New System.Drawing.Size(886, 518)
-        Me.TabPage5.TabIndex = 4
-        Me.TabPage5.Text = "第五世代"
-        '
-        'TabPage6
-        '
-        Me.TabPage6.BackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.TabPage6.Controls.Add(Me.Label1)
-        Me.TabPage6.Font = New System.Drawing.Font("微软雅黑", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
-        Me.TabPage6.Location = New System.Drawing.Point(4, 29)
-        Me.TabPage6.Name = "TabPage6"
-        Me.TabPage6.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage6.Size = New System.Drawing.Size(886, 518)
-        Me.TabPage6.TabIndex = 5
-        Me.TabPage6.Text = "第六世代"
-        '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.ForeColor = System.Drawing.SystemColors.HighlightText
-        Me.Label1.Location = New System.Drawing.Point(354, 245)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(163, 32)
-        Me.Label1.TabIndex = 0
-        Me.Label1.Text = "3DS仍在发售"
-        '
-        'TabPage7
-        '
-        Me.TabPage7.BackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.TabPage7.Controls.Add(Me.Label2)
-        Me.TabPage7.Location = New System.Drawing.Point(4, 29)
-        Me.TabPage7.Name = "TabPage7"
-        Me.TabPage7.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage7.Size = New System.Drawing.Size(886, 518)
-        Me.TabPage7.TabIndex = 6
-        Me.TabPage7.Text = "第七世代"
-        '
-        'TabPage8
-        '
-        Me.TabPage8.BackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.TabPage8.Controls.Add(Me.Label3)
-        Me.TabPage8.Location = New System.Drawing.Point(4, 29)
-        Me.TabPage8.Name = "TabPage8"
-        Me.TabPage8.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage8.Size = New System.Drawing.Size(886, 518)
-        Me.TabPage8.TabIndex = 7
-        Me.TabPage8.Text = "第八世代"
-        '
-        'Label3
-        '
-        Me.Label3.AutoSize = True
-        Me.Label3.Font = New System.Drawing.Font("微软雅黑", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
-        Me.Label3.ForeColor = System.Drawing.SystemColors.HighlightText
-        Me.Label3.Location = New System.Drawing.Point(391, 244)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(115, 32)
-        Me.Label3.TabIndex = 1
-        Me.Label3.Text = "即将发售"
-        '
-        'ToolTip1
-        '
-        Me.ToolTip1.ToolTipTitle = "精灵宝可梦"
-        '
-        'Label2
-        '
-        Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("微软雅黑", 15.0!)
-        Me.Label2.ForeColor = System.Drawing.SystemColors.HighlightText
-        Me.Label2.Location = New System.Drawing.Point(354, 245)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(163, 32)
-        Me.Label2.TabIndex = 1
-        Me.Label2.Text = "3DS仍在发售"
-        '
-        'PictureBox41
-        '
-        Me.PictureBox41.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox41.Image = CType(resources.GetObject("PictureBox41.Image"), System.Drawing.Image)
-        Me.PictureBox41.Location = New System.Drawing.Point(35, 26)
-        Me.PictureBox41.Name = "PictureBox41"
-        Me.PictureBox41.Size = New System.Drawing.Size(234, 195)
-        Me.PictureBox41.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
-        Me.PictureBox41.TabIndex = 0
-        Me.PictureBox41.TabStop = False
-        Me.ToolTip1.SetToolTip(Me.PictureBox41, "钻石")
-        '
-        'PictureBox42
-        '
-        Me.PictureBox42.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox42.Image = CType(resources.GetObject("PictureBox42.Image"), System.Drawing.Image)
-        Me.PictureBox42.Location = New System.Drawing.Point(287, 55)
-        Me.PictureBox42.Name = "PictureBox42"
-        Me.PictureBox42.Size = New System.Drawing.Size(234, 195)
-        Me.PictureBox42.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
-        Me.PictureBox42.TabIndex = 1
-        Me.PictureBox42.TabStop = False
-        Me.ToolTip1.SetToolTip(Me.PictureBox42, "珍珠")
-        '
-        'PictureBox43
-        '
-        Me.PictureBox43.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox43.Image = CType(resources.GetObject("PictureBox43.Image"), System.Drawing.Image)
-        Me.PictureBox43.Location = New System.Drawing.Point(83, 265)
-        Me.PictureBox43.Name = "PictureBox43"
-        Me.PictureBox43.Size = New System.Drawing.Size(286, 234)
-        Me.PictureBox43.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
-        Me.PictureBox43.TabIndex = 2
-        Me.PictureBox43.TabStop = False
-        Me.ToolTip1.SetToolTip(Me.PictureBox43, "白金")
+        Me.PictureBox45.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.PictureBox45.Image = CType(resources.GetObject("PictureBox45.Image"), System.Drawing.Image)
+        Me.PictureBox45.Location = New System.Drawing.Point(488, 265)
+        Me.PictureBox45.Name = "PictureBox45"
+        Me.PictureBox45.Size = New System.Drawing.Size(289, 247)
+        Me.PictureBox45.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.PictureBox45.TabIndex = 4
+        Me.PictureBox45.TabStop = False
+        Me.ToolTip1.SetToolTip(Me.PictureBox45, "魂银")
         '
         'PictureBox44
         '
@@ -507,17 +429,268 @@ Partial Class MainForm
         Me.PictureBox44.TabStop = False
         Me.ToolTip1.SetToolTip(Me.PictureBox44, "心金")
         '
-        'PictureBox45
+        'PictureBox43
         '
-        Me.PictureBox45.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox45.Image = CType(resources.GetObject("PictureBox45.Image"), System.Drawing.Image)
-        Me.PictureBox45.Location = New System.Drawing.Point(488, 265)
-        Me.PictureBox45.Name = "PictureBox45"
-        Me.PictureBox45.Size = New System.Drawing.Size(289, 247)
-        Me.PictureBox45.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
-        Me.PictureBox45.TabIndex = 4
-        Me.PictureBox45.TabStop = False
-        Me.ToolTip1.SetToolTip(Me.PictureBox45, "魂银")
+        Me.PictureBox43.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.PictureBox43.Image = CType(resources.GetObject("PictureBox43.Image"), System.Drawing.Image)
+        Me.PictureBox43.Location = New System.Drawing.Point(83, 265)
+        Me.PictureBox43.Name = "PictureBox43"
+        Me.PictureBox43.Size = New System.Drawing.Size(286, 234)
+        Me.PictureBox43.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.PictureBox43.TabIndex = 2
+        Me.PictureBox43.TabStop = False
+        Me.ToolTip1.SetToolTip(Me.PictureBox43, "白金")
+        '
+        'PictureBox42
+        '
+        Me.PictureBox42.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.PictureBox42.Image = CType(resources.GetObject("PictureBox42.Image"), System.Drawing.Image)
+        Me.PictureBox42.Location = New System.Drawing.Point(287, 55)
+        Me.PictureBox42.Name = "PictureBox42"
+        Me.PictureBox42.Size = New System.Drawing.Size(234, 195)
+        Me.PictureBox42.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.PictureBox42.TabIndex = 1
+        Me.PictureBox42.TabStop = False
+        Me.ToolTip1.SetToolTip(Me.PictureBox42, "珍珠")
+        '
+        'PictureBox41
+        '
+        Me.PictureBox41.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.PictureBox41.Image = CType(resources.GetObject("PictureBox41.Image"), System.Drawing.Image)
+        Me.PictureBox41.Location = New System.Drawing.Point(35, 26)
+        Me.PictureBox41.Name = "PictureBox41"
+        Me.PictureBox41.Size = New System.Drawing.Size(234, 195)
+        Me.PictureBox41.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.PictureBox41.TabIndex = 0
+        Me.PictureBox41.TabStop = False
+        Me.ToolTip1.SetToolTip(Me.PictureBox41, "钻石")
+        '
+        'TabPage5
+        '
+        Me.TabPage5.BackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.TabPage5.Controls.Add(Me.PictureBox54)
+        Me.TabPage5.Controls.Add(Me.PictureBox53)
+        Me.TabPage5.Controls.Add(Me.PictureBox52)
+        Me.TabPage5.Controls.Add(Me.PictureBox51)
+        Me.TabPage5.Location = New System.Drawing.Point(4, 29)
+        Me.TabPage5.Name = "TabPage5"
+        Me.TabPage5.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage5.Size = New System.Drawing.Size(886, 518)
+        Me.TabPage5.TabIndex = 4
+        Me.TabPage5.Text = "第五世代"
+        '
+        'PictureBox54
+        '
+        Me.PictureBox54.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.PictureBox54.Image = CType(resources.GetObject("PictureBox54.Image"), System.Drawing.Image)
+        Me.PictureBox54.Location = New System.Drawing.Point(495, 268)
+        Me.PictureBox54.Name = "PictureBox54"
+        Me.PictureBox54.Size = New System.Drawing.Size(260, 227)
+        Me.PictureBox54.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.PictureBox54.TabIndex = 5
+        Me.PictureBox54.TabStop = False
+        Me.ToolTip1.SetToolTip(Me.PictureBox54, "白2")
+        '
+        'PictureBox53
+        '
+        Me.PictureBox53.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.PictureBox53.Image = CType(resources.GetObject("PictureBox53.Image"), System.Drawing.Image)
+        Me.PictureBox53.Location = New System.Drawing.Point(136, 268)
+        Me.PictureBox53.Name = "PictureBox53"
+        Me.PictureBox53.Size = New System.Drawing.Size(260, 227)
+        Me.PictureBox53.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.PictureBox53.TabIndex = 4
+        Me.PictureBox53.TabStop = False
+        Me.ToolTip1.SetToolTip(Me.PictureBox53, "黑2")
+        '
+        'PictureBox52
+        '
+        Me.PictureBox52.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.PictureBox52.Image = CType(resources.GetObject("PictureBox52.Image"), System.Drawing.Image)
+        Me.PictureBox52.Location = New System.Drawing.Point(495, 22)
+        Me.PictureBox52.Name = "PictureBox52"
+        Me.PictureBox52.Size = New System.Drawing.Size(260, 227)
+        Me.PictureBox52.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.PictureBox52.TabIndex = 3
+        Me.PictureBox52.TabStop = False
+        Me.ToolTip1.SetToolTip(Me.PictureBox52, "白")
+        '
+        'PictureBox51
+        '
+        Me.PictureBox51.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.PictureBox51.Image = CType(resources.GetObject("PictureBox51.Image"), System.Drawing.Image)
+        Me.PictureBox51.Location = New System.Drawing.Point(136, 22)
+        Me.PictureBox51.Name = "PictureBox51"
+        Me.PictureBox51.Size = New System.Drawing.Size(260, 227)
+        Me.PictureBox51.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.PictureBox51.TabIndex = 2
+        Me.PictureBox51.TabStop = False
+        Me.ToolTip1.SetToolTip(Me.PictureBox51, "黑")
+        '
+        'TabPage6
+        '
+        Me.TabPage6.BackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.TabPage6.Controls.Add(Me.PictureBox64)
+        Me.TabPage6.Controls.Add(Me.PictureBox63)
+        Me.TabPage6.Controls.Add(Me.PictureBox62)
+        Me.TabPage6.Controls.Add(Me.PictureBox61)
+        Me.TabPage6.Font = New System.Drawing.Font("微软雅黑", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
+        Me.TabPage6.Location = New System.Drawing.Point(4, 29)
+        Me.TabPage6.Name = "TabPage6"
+        Me.TabPage6.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage6.Size = New System.Drawing.Size(886, 518)
+        Me.TabPage6.TabIndex = 5
+        Me.TabPage6.Text = "第六世代"
+        '
+        'PictureBox64
+        '
+        Me.PictureBox64.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.PictureBox64.Image = CType(resources.GetObject("PictureBox64.Image"), System.Drawing.Image)
+        Me.PictureBox64.Location = New System.Drawing.Point(525, 260)
+        Me.PictureBox64.Name = "PictureBox64"
+        Me.PictureBox64.Size = New System.Drawing.Size(276, 244)
+        Me.PictureBox64.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.PictureBox64.TabIndex = 9
+        Me.PictureBox64.TabStop = False
+        Me.ToolTip1.SetToolTip(Me.PictureBox64, "阿尔法蓝宝石")
+        '
+        'PictureBox63
+        '
+        Me.PictureBox63.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.PictureBox63.Image = CType(resources.GetObject("PictureBox63.Image"), System.Drawing.Image)
+        Me.PictureBox63.Location = New System.Drawing.Point(214, 260)
+        Me.PictureBox63.Name = "PictureBox63"
+        Me.PictureBox63.Size = New System.Drawing.Size(276, 244)
+        Me.PictureBox63.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.PictureBox63.TabIndex = 8
+        Me.PictureBox63.TabStop = False
+        Me.ToolTip1.SetToolTip(Me.PictureBox63, "欧米伽红宝石")
+        '
+        'PictureBox62
+        '
+        Me.PictureBox62.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.PictureBox62.Image = CType(resources.GetObject("PictureBox62.Image"), System.Drawing.Image)
+        Me.PictureBox62.Location = New System.Drawing.Point(399, 8)
+        Me.PictureBox62.Name = "PictureBox62"
+        Me.PictureBox62.Size = New System.Drawing.Size(276, 244)
+        Me.PictureBox62.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.PictureBox62.TabIndex = 7
+        Me.PictureBox62.TabStop = False
+        Me.ToolTip1.SetToolTip(Me.PictureBox62, "Y")
+        '
+        'PictureBox61
+        '
+        Me.PictureBox61.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.PictureBox61.Image = CType(resources.GetObject("PictureBox61.Image"), System.Drawing.Image)
+        Me.PictureBox61.Location = New System.Drawing.Point(88, 8)
+        Me.PictureBox61.Name = "PictureBox61"
+        Me.PictureBox61.Size = New System.Drawing.Size(276, 244)
+        Me.PictureBox61.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.PictureBox61.TabIndex = 6
+        Me.PictureBox61.TabStop = False
+        Me.ToolTip1.SetToolTip(Me.PictureBox61, "X")
+        '
+        'TabPage7
+        '
+        Me.TabPage7.BackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.TabPage7.Controls.Add(Me.PictureBox74)
+        Me.TabPage7.Controls.Add(Me.PictureBox73)
+        Me.TabPage7.Controls.Add(Me.PictureBox72)
+        Me.TabPage7.Controls.Add(Me.PictureBox71)
+        Me.TabPage7.Location = New System.Drawing.Point(4, 29)
+        Me.TabPage7.Name = "TabPage7"
+        Me.TabPage7.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage7.Size = New System.Drawing.Size(886, 518)
+        Me.TabPage7.TabIndex = 6
+        Me.TabPage7.Text = "第七世代"
+        '
+        'PictureBox74
+        '
+        Me.PictureBox74.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.PictureBox74.Image = CType(resources.GetObject("PictureBox74.Image"), System.Drawing.Image)
+        Me.PictureBox74.Location = New System.Drawing.Point(480, 207)
+        Me.PictureBox74.Name = "PictureBox74"
+        Me.PictureBox74.Size = New System.Drawing.Size(340, 294)
+        Me.PictureBox74.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.PictureBox74.TabIndex = 13
+        Me.PictureBox74.TabStop = False
+        Me.ToolTip1.SetToolTip(Me.PictureBox74, "究极之月")
+        '
+        'PictureBox73
+        '
+        Me.PictureBox73.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.PictureBox73.Image = CType(resources.GetObject("PictureBox73.Image"), System.Drawing.Image)
+        Me.PictureBox73.Location = New System.Drawing.Point(58, 75)
+        Me.PictureBox73.Name = "PictureBox73"
+        Me.PictureBox73.Size = New System.Drawing.Size(340, 294)
+        Me.PictureBox73.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.PictureBox73.TabIndex = 12
+        Me.PictureBox73.TabStop = False
+        Me.ToolTip1.SetToolTip(Me.PictureBox73, "究极之日")
+        '
+        'PictureBox72
+        '
+        Me.PictureBox72.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.PictureBox72.Image = CType(resources.GetObject("PictureBox72.Image"), System.Drawing.Image)
+        Me.PictureBox72.Location = New System.Drawing.Point(665, 12)
+        Me.PictureBox72.Name = "PictureBox72"
+        Me.PictureBox72.Size = New System.Drawing.Size(196, 188)
+        Me.PictureBox72.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.PictureBox72.TabIndex = 11
+        Me.PictureBox72.TabStop = False
+        Me.ToolTip1.SetToolTip(Me.PictureBox72, "月亮")
+        '
+        'PictureBox71
+        '
+        Me.PictureBox71.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.PictureBox71.Image = CType(resources.GetObject("PictureBox71.Image"), System.Drawing.Image)
+        Me.PictureBox71.Location = New System.Drawing.Point(442, 12)
+        Me.PictureBox71.Name = "PictureBox71"
+        Me.PictureBox71.Size = New System.Drawing.Size(196, 188)
+        Me.PictureBox71.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.PictureBox71.TabIndex = 10
+        Me.PictureBox71.TabStop = False
+        Me.ToolTip1.SetToolTip(Me.PictureBox71, "太阳")
+        '
+        'TabPage8
+        '
+        Me.TabPage8.BackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.TabPage8.Controls.Add(Me.PictureBox82)
+        Me.TabPage8.Controls.Add(Me.PictureBox81)
+        Me.TabPage8.Location = New System.Drawing.Point(4, 29)
+        Me.TabPage8.Name = "TabPage8"
+        Me.TabPage8.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage8.Size = New System.Drawing.Size(886, 518)
+        Me.TabPage8.TabIndex = 7
+        Me.TabPage8.Text = "第八世代"
+        '
+        'PictureBox82
+        '
+        Me.PictureBox82.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.PictureBox82.Image = CType(resources.GetObject("PictureBox82.Image"), System.Drawing.Image)
+        Me.PictureBox82.Location = New System.Drawing.Point(315, 68)
+        Me.PictureBox82.Name = "PictureBox82"
+        Me.PictureBox82.Size = New System.Drawing.Size(251, 405)
+        Me.PictureBox82.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.PictureBox82.TabIndex = 11
+        Me.PictureBox82.TabStop = False
+        Me.ToolTip1.SetToolTip(Me.PictureBox82, "盾")
+        '
+        'PictureBox81
+        '
+        Me.PictureBox81.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.PictureBox81.Image = CType(resources.GetObject("PictureBox81.Image"), System.Drawing.Image)
+        Me.PictureBox81.Location = New System.Drawing.Point(25, 42)
+        Me.PictureBox81.Name = "PictureBox81"
+        Me.PictureBox81.Size = New System.Drawing.Size(251, 405)
+        Me.PictureBox81.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.PictureBox81.TabIndex = 10
+        Me.PictureBox81.TabStop = False
+        Me.ToolTip1.SetToolTip(Me.PictureBox81, "剑")
+        '
+        'ToolTip1
+        '
+        Me.ToolTip1.ToolTipTitle = "精灵宝可梦"
         '
         'MainForm
         '
@@ -552,17 +725,29 @@ Partial Class MainForm
         CType(Me.PictureBox31, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox34, System.ComponentModel.ISupportInitialize).EndInit()
         Me.TabPage4.ResumeLayout(False)
-        Me.TabPage6.ResumeLayout(False)
-        Me.TabPage6.PerformLayout()
-        Me.TabPage7.ResumeLayout(False)
-        Me.TabPage7.PerformLayout()
-        Me.TabPage8.ResumeLayout(False)
-        Me.TabPage8.PerformLayout()
-        CType(Me.PictureBox41, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox42, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox43, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox44, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox45, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox44, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox43, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox42, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox41, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.TabPage5.ResumeLayout(False)
+        CType(Me.PictureBox54, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox53, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox52, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox51, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.TabPage6.ResumeLayout(False)
+        CType(Me.PictureBox64, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox63, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox62, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox61, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.TabPage7.ResumeLayout(False)
+        CType(Me.PictureBox74, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox73, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox72, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox71, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.TabPage8.ResumeLayout(False)
+        CType(Me.PictureBox82, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox81, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -587,10 +772,8 @@ Partial Class MainForm
     Friend WithEvents TabPage5 As TabPage
     Friend WithEvents 退出ToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents TabPage6 As TabPage
-    Friend WithEvents Label1 As Label
     Friend WithEvents TabPage7 As TabPage
     Friend WithEvents TabPage8 As TabPage
-    Friend WithEvents Label3 As Label
     Friend WithEvents 版本说明ToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents ToolTip1 As ToolTip
     Friend WithEvents PictureBox12 As PictureBox
@@ -605,5 +788,18 @@ Partial Class MainForm
     Friend WithEvents PictureBox43 As PictureBox
     Friend WithEvents PictureBox42 As PictureBox
     Friend WithEvents PictureBox41 As PictureBox
-    Friend WithEvents Label2 As Label
+    Friend WithEvents PictureBox54 As PictureBox
+    Friend WithEvents PictureBox53 As PictureBox
+    Friend WithEvents PictureBox52 As PictureBox
+    Friend WithEvents PictureBox51 As PictureBox
+    Friend WithEvents PictureBox64 As PictureBox
+    Friend WithEvents PictureBox63 As PictureBox
+    Friend WithEvents PictureBox62 As PictureBox
+    Friend WithEvents PictureBox61 As PictureBox
+    Friend WithEvents PictureBox74 As PictureBox
+    Friend WithEvents PictureBox73 As PictureBox
+    Friend WithEvents PictureBox72 As PictureBox
+    Friend WithEvents PictureBox71 As PictureBox
+    Friend WithEvents PictureBox82 As PictureBox
+    Friend WithEvents PictureBox81 As PictureBox
 End Class

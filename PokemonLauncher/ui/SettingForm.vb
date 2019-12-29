@@ -13,6 +13,7 @@
 
     Private Sub UpdateComp()
         For Each item As ListViewItem In ListView1.Items
+            item.SubItems.Add(New ListViewItem.ListViewSubItem())
             item.SubItems(1).Text = ini.GetVal(item.Group.Header, item.Text)
         Next
     End Sub
