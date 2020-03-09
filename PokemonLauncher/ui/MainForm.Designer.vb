@@ -125,7 +125,8 @@ Partial Class MainForm
         Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.文件ToolStripMenuItem, Me.设置ToolStripMenuItem, Me.关于ToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
-        Me.MenuStrip1.Size = New System.Drawing.Size(894, 28)
+        Me.MenuStrip1.Padding = New System.Windows.Forms.Padding(7, 2, 0, 2)
+        Me.MenuStrip1.Size = New System.Drawing.Size(1073, 32)
         Me.MenuStrip1.TabIndex = 5
         Me.MenuStrip1.Text = "MenuStrip1"
         '
@@ -134,18 +135,18 @@ Partial Class MainForm
         Me.文件ToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripSeparator1, Me.退出ToolStripMenuItem})
         Me.文件ToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ControlText
         Me.文件ToolStripMenuItem.Name = "文件ToolStripMenuItem"
-        Me.文件ToolStripMenuItem.Size = New System.Drawing.Size(51, 24)
+        Me.文件ToolStripMenuItem.Size = New System.Drawing.Size(58, 28)
         Me.文件ToolStripMenuItem.Text = "文件"
         '
         'ToolStripSeparator1
         '
         Me.ToolStripSeparator1.Name = "ToolStripSeparator1"
-        Me.ToolStripSeparator1.Size = New System.Drawing.Size(111, 6)
+        Me.ToolStripSeparator1.Size = New System.Drawing.Size(125, 6)
         '
         '退出ToolStripMenuItem
         '
         Me.退出ToolStripMenuItem.Name = "退出ToolStripMenuItem"
-        Me.退出ToolStripMenuItem.Size = New System.Drawing.Size(114, 26)
+        Me.退出ToolStripMenuItem.Size = New System.Drawing.Size(128, 30)
         Me.退出ToolStripMenuItem.Text = "退出"
         '
         '设置ToolStripMenuItem
@@ -153,13 +154,13 @@ Partial Class MainForm
         Me.设置ToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.游戏路径设置ToolStripMenuItem})
         Me.设置ToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ControlText
         Me.设置ToolStripMenuItem.Name = "设置ToolStripMenuItem"
-        Me.设置ToolStripMenuItem.Size = New System.Drawing.Size(51, 24)
+        Me.设置ToolStripMenuItem.Size = New System.Drawing.Size(58, 28)
         Me.设置ToolStripMenuItem.Text = "设置"
         '
         '游戏路径设置ToolStripMenuItem
         '
         Me.游戏路径设置ToolStripMenuItem.Name = "游戏路径设置ToolStripMenuItem"
-        Me.游戏路径设置ToolStripMenuItem.Size = New System.Drawing.Size(174, 26)
+        Me.游戏路径设置ToolStripMenuItem.Size = New System.Drawing.Size(200, 30)
         Me.游戏路径设置ToolStripMenuItem.Text = "游戏路径设置"
         '
         '关于ToolStripMenuItem
@@ -167,19 +168,19 @@ Partial Class MainForm
         Me.关于ToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.版本说明ToolStripMenuItem, Me.关于PokemonStarterToolStripMenuItem})
         Me.关于ToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ControlText
         Me.关于ToolStripMenuItem.Name = "关于ToolStripMenuItem"
-        Me.关于ToolStripMenuItem.Size = New System.Drawing.Size(51, 24)
+        Me.关于ToolStripMenuItem.Size = New System.Drawing.Size(58, 28)
         Me.关于ToolStripMenuItem.Text = "帮助"
         '
         '版本说明ToolStripMenuItem
         '
         Me.版本说明ToolStripMenuItem.Name = "版本说明ToolStripMenuItem"
-        Me.版本说明ToolStripMenuItem.Size = New System.Drawing.Size(253, 26)
+        Me.版本说明ToolStripMenuItem.Size = New System.Drawing.Size(292, 30)
         Me.版本说明ToolStripMenuItem.Text = "版本说明"
         '
         '关于PokemonStarterToolStripMenuItem
         '
         Me.关于PokemonStarterToolStripMenuItem.Name = "关于PokemonStarterToolStripMenuItem"
-        Me.关于PokemonStarterToolStripMenuItem.Size = New System.Drawing.Size(253, 26)
+        Me.关于PokemonStarterToolStripMenuItem.Size = New System.Drawing.Size(292, 30)
         Me.关于PokemonStarterToolStripMenuItem.Text = "关于Pokemon Launcher"
         '
         'GenerationTab
@@ -196,12 +197,13 @@ Partial Class MainForm
         Me.GenerationTab.Font = New System.Drawing.Font("微软雅黑", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
         Me.GenerationTab.HotTrack = True
         Me.GenerationTab.ItemSize = New System.Drawing.Size(75, 25)
-        Me.GenerationTab.Location = New System.Drawing.Point(0, 31)
+        Me.GenerationTab.Location = New System.Drawing.Point(0, 37)
+        Me.GenerationTab.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.GenerationTab.Multiline = True
         Me.GenerationTab.Name = "GenerationTab"
         Me.GenerationTab.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.GenerationTab.SelectedIndex = 0
-        Me.GenerationTab.Size = New System.Drawing.Size(894, 551)
+        Me.GenerationTab.Size = New System.Drawing.Size(1073, 661)
         Me.GenerationTab.TabIndex = 6
         '
         'TabPage1
@@ -212,9 +214,10 @@ Partial Class MainForm
         Me.TabPage1.Controls.Add(Me.PictureBox14)
         Me.TabPage1.Controls.Add(Me.PictureBox11)
         Me.TabPage1.Location = New System.Drawing.Point(4, 29)
+        Me.TabPage1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.TabPage1.Name = "TabPage1"
-        Me.TabPage1.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage1.Size = New System.Drawing.Size(886, 518)
+        Me.TabPage1.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TabPage1.Size = New System.Drawing.Size(1065, 628)
         Me.TabPage1.TabIndex = 0
         Me.TabPage1.Text = "第一世代"
         '
@@ -222,9 +225,10 @@ Partial Class MainForm
         '
         Me.PictureBox12.Cursor = System.Windows.Forms.Cursors.Hand
         Me.PictureBox12.Image = CType(resources.GetObject("PictureBox12.Image"), System.Drawing.Image)
-        Me.PictureBox12.Location = New System.Drawing.Point(285, 34)
+        Me.PictureBox12.Location = New System.Drawing.Point(342, 41)
+        Me.PictureBox12.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.PictureBox12.Name = "PictureBox12"
-        Me.PictureBox12.Size = New System.Drawing.Size(209, 230)
+        Me.PictureBox12.Size = New System.Drawing.Size(251, 276)
         Me.PictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox12.TabIndex = 3
         Me.PictureBox12.TabStop = False
@@ -234,9 +238,10 @@ Partial Class MainForm
         '
         Me.PictureBox13.Cursor = System.Windows.Forms.Cursors.Hand
         Me.PictureBox13.Image = CType(resources.GetObject("PictureBox13.Image"), System.Drawing.Image)
-        Me.PictureBox13.Location = New System.Drawing.Point(167, 270)
+        Me.PictureBox13.Location = New System.Drawing.Point(200, 324)
+        Me.PictureBox13.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.PictureBox13.Name = "PictureBox13"
-        Me.PictureBox13.Size = New System.Drawing.Size(198, 230)
+        Me.PictureBox13.Size = New System.Drawing.Size(238, 276)
         Me.PictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox13.TabIndex = 2
         Me.PictureBox13.TabStop = False
@@ -246,9 +251,10 @@ Partial Class MainForm
         '
         Me.PictureBox14.Cursor = System.Windows.Forms.Cursors.Hand
         Me.PictureBox14.Image = CType(resources.GetObject("PictureBox14.Image"), System.Drawing.Image)
-        Me.PictureBox14.Location = New System.Drawing.Point(500, 57)
+        Me.PictureBox14.Location = New System.Drawing.Point(600, 68)
+        Me.PictureBox14.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.PictureBox14.Name = "PictureBox14"
-        Me.PictureBox14.Size = New System.Drawing.Size(354, 386)
+        Me.PictureBox14.Size = New System.Drawing.Size(425, 463)
         Me.PictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox14.TabIndex = 1
         Me.PictureBox14.TabStop = False
@@ -258,9 +264,10 @@ Partial Class MainForm
         '
         Me.PictureBox11.Cursor = System.Windows.Forms.Cursors.Hand
         Me.PictureBox11.Image = CType(resources.GetObject("PictureBox11.Image"), System.Drawing.Image)
-        Me.PictureBox11.Location = New System.Drawing.Point(50, 34)
+        Me.PictureBox11.Location = New System.Drawing.Point(60, 41)
+        Me.PictureBox11.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.PictureBox11.Name = "PictureBox11"
-        Me.PictureBox11.Size = New System.Drawing.Size(198, 230)
+        Me.PictureBox11.Size = New System.Drawing.Size(238, 276)
         Me.PictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox11.TabIndex = 0
         Me.PictureBox11.TabStop = False
@@ -273,9 +280,10 @@ Partial Class MainForm
         Me.TabPage2.Controls.Add(Me.PictureBox22)
         Me.TabPage2.Controls.Add(Me.PictureBox21)
         Me.TabPage2.Location = New System.Drawing.Point(4, 29)
+        Me.TabPage2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.TabPage2.Name = "TabPage2"
-        Me.TabPage2.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage2.Size = New System.Drawing.Size(886, 518)
+        Me.TabPage2.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TabPage2.Size = New System.Drawing.Size(1065, 628)
         Me.TabPage2.TabIndex = 1
         Me.TabPage2.Text = "第二世代"
         '
@@ -283,9 +291,10 @@ Partial Class MainForm
         '
         Me.PictureBox23.Cursor = System.Windows.Forms.Cursors.Hand
         Me.PictureBox23.Image = CType(resources.GetObject("PictureBox23.Image"), System.Drawing.Image)
-        Me.PictureBox23.Location = New System.Drawing.Point(433, 54)
+        Me.PictureBox23.Location = New System.Drawing.Point(520, 65)
+        Me.PictureBox23.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.PictureBox23.Name = "PictureBox23"
-        Me.PictureBox23.Size = New System.Drawing.Size(329, 401)
+        Me.PictureBox23.Size = New System.Drawing.Size(395, 481)
         Me.PictureBox23.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox23.TabIndex = 2
         Me.PictureBox23.TabStop = False
@@ -295,9 +304,10 @@ Partial Class MainForm
         '
         Me.PictureBox22.Cursor = System.Windows.Forms.Cursors.Hand
         Me.PictureBox22.Image = CType(resources.GetObject("PictureBox22.Image"), System.Drawing.Image)
-        Me.PictureBox22.Location = New System.Drawing.Point(105, 264)
+        Me.PictureBox22.Location = New System.Drawing.Point(126, 317)
+        Me.PictureBox22.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.PictureBox22.Name = "PictureBox22"
-        Me.PictureBox22.Size = New System.Drawing.Size(289, 232)
+        Me.PictureBox22.Size = New System.Drawing.Size(347, 278)
         Me.PictureBox22.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox22.TabIndex = 1
         Me.PictureBox22.TabStop = False
@@ -307,9 +317,10 @@ Partial Class MainForm
         '
         Me.PictureBox21.Cursor = System.Windows.Forms.Cursors.Hand
         Me.PictureBox21.Image = CType(resources.GetObject("PictureBox21.Image"), System.Drawing.Image)
-        Me.PictureBox21.Location = New System.Drawing.Point(105, 26)
+        Me.PictureBox21.Location = New System.Drawing.Point(126, 31)
+        Me.PictureBox21.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.PictureBox21.Name = "PictureBox21"
-        Me.PictureBox21.Size = New System.Drawing.Size(289, 232)
+        Me.PictureBox21.Size = New System.Drawing.Size(347, 278)
         Me.PictureBox21.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox21.TabIndex = 0
         Me.PictureBox21.TabStop = False
@@ -324,8 +335,9 @@ Partial Class MainForm
         Me.TabPage3.Controls.Add(Me.PictureBox31)
         Me.TabPage3.Controls.Add(Me.PictureBox34)
         Me.TabPage3.Location = New System.Drawing.Point(4, 29)
+        Me.TabPage3.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.TabPage3.Name = "TabPage3"
-        Me.TabPage3.Size = New System.Drawing.Size(886, 518)
+        Me.TabPage3.Size = New System.Drawing.Size(1065, 628)
         Me.TabPage3.TabIndex = 2
         Me.TabPage3.Text = "第三世代"
         '
@@ -333,9 +345,10 @@ Partial Class MainForm
         '
         Me.PictureBox35.Cursor = System.Windows.Forms.Cursors.Hand
         Me.PictureBox35.Image = CType(resources.GetObject("PictureBox35.Image"), System.Drawing.Image)
-        Me.PictureBox35.Location = New System.Drawing.Point(398, 197)
+        Me.PictureBox35.Location = New System.Drawing.Point(478, 236)
+        Me.PictureBox35.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.PictureBox35.Name = "PictureBox35"
-        Me.PictureBox35.Size = New System.Drawing.Size(465, 307)
+        Me.PictureBox35.Size = New System.Drawing.Size(558, 368)
         Me.PictureBox35.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox35.TabIndex = 9
         Me.PictureBox35.TabStop = False
@@ -345,9 +358,10 @@ Partial Class MainForm
         '
         Me.PictureBox33.Cursor = System.Windows.Forms.Cursors.Hand
         Me.PictureBox33.Image = CType(resources.GetObject("PictureBox33.Image"), System.Drawing.Image)
-        Me.PictureBox33.Location = New System.Drawing.Point(363, 22)
+        Me.PictureBox33.Location = New System.Drawing.Point(436, 26)
+        Me.PictureBox33.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.PictureBox33.Name = "PictureBox33"
-        Me.PictureBox33.Size = New System.Drawing.Size(244, 165)
+        Me.PictureBox33.Size = New System.Drawing.Size(293, 198)
         Me.PictureBox33.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox33.TabIndex = 8
         Me.PictureBox33.TabStop = False
@@ -357,9 +371,10 @@ Partial Class MainForm
         '
         Me.PictureBox32.Cursor = System.Windows.Forms.Cursors.Hand
         Me.PictureBox32.Image = CType(resources.GetObject("PictureBox32.Image"), System.Drawing.Image)
-        Me.PictureBox32.Location = New System.Drawing.Point(27, 278)
+        Me.PictureBox32.Location = New System.Drawing.Point(32, 334)
+        Me.PictureBox32.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.PictureBox32.Name = "PictureBox32"
-        Me.PictureBox32.Size = New System.Drawing.Size(323, 218)
+        Me.PictureBox32.Size = New System.Drawing.Size(388, 262)
         Me.PictureBox32.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox32.TabIndex = 7
         Me.PictureBox32.TabStop = False
@@ -369,9 +384,10 @@ Partial Class MainForm
         '
         Me.PictureBox31.Cursor = System.Windows.Forms.Cursors.Hand
         Me.PictureBox31.Image = CType(resources.GetObject("PictureBox31.Image"), System.Drawing.Image)
-        Me.PictureBox31.Location = New System.Drawing.Point(27, 28)
+        Me.PictureBox31.Location = New System.Drawing.Point(32, 34)
+        Me.PictureBox31.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.PictureBox31.Name = "PictureBox31"
-        Me.PictureBox31.Size = New System.Drawing.Size(323, 215)
+        Me.PictureBox31.Size = New System.Drawing.Size(388, 258)
         Me.PictureBox31.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox31.TabIndex = 6
         Me.PictureBox31.TabStop = False
@@ -382,9 +398,10 @@ Partial Class MainForm
         '
         Me.PictureBox34.Cursor = System.Windows.Forms.Cursors.Hand
         Me.PictureBox34.Image = CType(resources.GetObject("PictureBox34.Image"), System.Drawing.Image)
-        Me.PictureBox34.Location = New System.Drawing.Point(619, 22)
+        Me.PictureBox34.Location = New System.Drawing.Point(743, 26)
+        Me.PictureBox34.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.PictureBox34.Name = "PictureBox34"
-        Me.PictureBox34.Size = New System.Drawing.Size(244, 165)
+        Me.PictureBox34.Size = New System.Drawing.Size(293, 198)
         Me.PictureBox34.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox34.TabIndex = 5
         Me.PictureBox34.TabStop = False
@@ -399,9 +416,10 @@ Partial Class MainForm
         Me.TabPage4.Controls.Add(Me.PictureBox42)
         Me.TabPage4.Controls.Add(Me.PictureBox41)
         Me.TabPage4.Location = New System.Drawing.Point(4, 29)
+        Me.TabPage4.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.TabPage4.Name = "TabPage4"
-        Me.TabPage4.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage4.Size = New System.Drawing.Size(886, 518)
+        Me.TabPage4.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TabPage4.Size = New System.Drawing.Size(1065, 628)
         Me.TabPage4.TabIndex = 3
         Me.TabPage4.Text = "第四世代"
         '
@@ -409,9 +427,10 @@ Partial Class MainForm
         '
         Me.PictureBox45.Cursor = System.Windows.Forms.Cursors.Hand
         Me.PictureBox45.Image = CType(resources.GetObject("PictureBox45.Image"), System.Drawing.Image)
-        Me.PictureBox45.Location = New System.Drawing.Point(488, 265)
+        Me.PictureBox45.Location = New System.Drawing.Point(586, 318)
+        Me.PictureBox45.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.PictureBox45.Name = "PictureBox45"
-        Me.PictureBox45.Size = New System.Drawing.Size(289, 247)
+        Me.PictureBox45.Size = New System.Drawing.Size(347, 296)
         Me.PictureBox45.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox45.TabIndex = 4
         Me.PictureBox45.TabStop = False
@@ -421,9 +440,10 @@ Partial Class MainForm
         '
         Me.PictureBox44.Cursor = System.Windows.Forms.Cursors.Hand
         Me.PictureBox44.Image = CType(resources.GetObject("PictureBox44.Image"), System.Drawing.Image)
-        Me.PictureBox44.Location = New System.Drawing.Point(577, 12)
+        Me.PictureBox44.Location = New System.Drawing.Point(692, 14)
+        Me.PictureBox44.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.PictureBox44.Name = "PictureBox44"
-        Me.PictureBox44.Size = New System.Drawing.Size(292, 247)
+        Me.PictureBox44.Size = New System.Drawing.Size(350, 296)
         Me.PictureBox44.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox44.TabIndex = 3
         Me.PictureBox44.TabStop = False
@@ -433,9 +453,10 @@ Partial Class MainForm
         '
         Me.PictureBox43.Cursor = System.Windows.Forms.Cursors.Hand
         Me.PictureBox43.Image = CType(resources.GetObject("PictureBox43.Image"), System.Drawing.Image)
-        Me.PictureBox43.Location = New System.Drawing.Point(83, 265)
+        Me.PictureBox43.Location = New System.Drawing.Point(100, 318)
+        Me.PictureBox43.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.PictureBox43.Name = "PictureBox43"
-        Me.PictureBox43.Size = New System.Drawing.Size(286, 234)
+        Me.PictureBox43.Size = New System.Drawing.Size(343, 281)
         Me.PictureBox43.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox43.TabIndex = 2
         Me.PictureBox43.TabStop = False
@@ -445,9 +466,10 @@ Partial Class MainForm
         '
         Me.PictureBox42.Cursor = System.Windows.Forms.Cursors.Hand
         Me.PictureBox42.Image = CType(resources.GetObject("PictureBox42.Image"), System.Drawing.Image)
-        Me.PictureBox42.Location = New System.Drawing.Point(287, 55)
+        Me.PictureBox42.Location = New System.Drawing.Point(344, 66)
+        Me.PictureBox42.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.PictureBox42.Name = "PictureBox42"
-        Me.PictureBox42.Size = New System.Drawing.Size(234, 195)
+        Me.PictureBox42.Size = New System.Drawing.Size(281, 234)
         Me.PictureBox42.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox42.TabIndex = 1
         Me.PictureBox42.TabStop = False
@@ -457,9 +479,10 @@ Partial Class MainForm
         '
         Me.PictureBox41.Cursor = System.Windows.Forms.Cursors.Hand
         Me.PictureBox41.Image = CType(resources.GetObject("PictureBox41.Image"), System.Drawing.Image)
-        Me.PictureBox41.Location = New System.Drawing.Point(35, 26)
+        Me.PictureBox41.Location = New System.Drawing.Point(42, 31)
+        Me.PictureBox41.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.PictureBox41.Name = "PictureBox41"
-        Me.PictureBox41.Size = New System.Drawing.Size(234, 195)
+        Me.PictureBox41.Size = New System.Drawing.Size(281, 234)
         Me.PictureBox41.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox41.TabIndex = 0
         Me.PictureBox41.TabStop = False
@@ -473,9 +496,10 @@ Partial Class MainForm
         Me.TabPage5.Controls.Add(Me.PictureBox52)
         Me.TabPage5.Controls.Add(Me.PictureBox51)
         Me.TabPage5.Location = New System.Drawing.Point(4, 29)
+        Me.TabPage5.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.TabPage5.Name = "TabPage5"
-        Me.TabPage5.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage5.Size = New System.Drawing.Size(886, 518)
+        Me.TabPage5.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TabPage5.Size = New System.Drawing.Size(1065, 628)
         Me.TabPage5.TabIndex = 4
         Me.TabPage5.Text = "第五世代"
         '
@@ -483,9 +507,10 @@ Partial Class MainForm
         '
         Me.PictureBox54.Cursor = System.Windows.Forms.Cursors.Hand
         Me.PictureBox54.Image = CType(resources.GetObject("PictureBox54.Image"), System.Drawing.Image)
-        Me.PictureBox54.Location = New System.Drawing.Point(495, 268)
+        Me.PictureBox54.Location = New System.Drawing.Point(594, 322)
+        Me.PictureBox54.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.PictureBox54.Name = "PictureBox54"
-        Me.PictureBox54.Size = New System.Drawing.Size(260, 227)
+        Me.PictureBox54.Size = New System.Drawing.Size(312, 272)
         Me.PictureBox54.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox54.TabIndex = 5
         Me.PictureBox54.TabStop = False
@@ -495,9 +520,10 @@ Partial Class MainForm
         '
         Me.PictureBox53.Cursor = System.Windows.Forms.Cursors.Hand
         Me.PictureBox53.Image = CType(resources.GetObject("PictureBox53.Image"), System.Drawing.Image)
-        Me.PictureBox53.Location = New System.Drawing.Point(136, 268)
+        Me.PictureBox53.Location = New System.Drawing.Point(163, 322)
+        Me.PictureBox53.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.PictureBox53.Name = "PictureBox53"
-        Me.PictureBox53.Size = New System.Drawing.Size(260, 227)
+        Me.PictureBox53.Size = New System.Drawing.Size(312, 272)
         Me.PictureBox53.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox53.TabIndex = 4
         Me.PictureBox53.TabStop = False
@@ -507,9 +533,10 @@ Partial Class MainForm
         '
         Me.PictureBox52.Cursor = System.Windows.Forms.Cursors.Hand
         Me.PictureBox52.Image = CType(resources.GetObject("PictureBox52.Image"), System.Drawing.Image)
-        Me.PictureBox52.Location = New System.Drawing.Point(495, 22)
+        Me.PictureBox52.Location = New System.Drawing.Point(594, 26)
+        Me.PictureBox52.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.PictureBox52.Name = "PictureBox52"
-        Me.PictureBox52.Size = New System.Drawing.Size(260, 227)
+        Me.PictureBox52.Size = New System.Drawing.Size(312, 272)
         Me.PictureBox52.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox52.TabIndex = 3
         Me.PictureBox52.TabStop = False
@@ -519,9 +546,10 @@ Partial Class MainForm
         '
         Me.PictureBox51.Cursor = System.Windows.Forms.Cursors.Hand
         Me.PictureBox51.Image = CType(resources.GetObject("PictureBox51.Image"), System.Drawing.Image)
-        Me.PictureBox51.Location = New System.Drawing.Point(136, 22)
+        Me.PictureBox51.Location = New System.Drawing.Point(163, 26)
+        Me.PictureBox51.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.PictureBox51.Name = "PictureBox51"
-        Me.PictureBox51.Size = New System.Drawing.Size(260, 227)
+        Me.PictureBox51.Size = New System.Drawing.Size(312, 272)
         Me.PictureBox51.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox51.TabIndex = 2
         Me.PictureBox51.TabStop = False
@@ -536,9 +564,10 @@ Partial Class MainForm
         Me.TabPage6.Controls.Add(Me.PictureBox61)
         Me.TabPage6.Font = New System.Drawing.Font("微软雅黑", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
         Me.TabPage6.Location = New System.Drawing.Point(4, 29)
+        Me.TabPage6.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.TabPage6.Name = "TabPage6"
-        Me.TabPage6.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage6.Size = New System.Drawing.Size(886, 518)
+        Me.TabPage6.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TabPage6.Size = New System.Drawing.Size(1065, 628)
         Me.TabPage6.TabIndex = 5
         Me.TabPage6.Text = "第六世代"
         '
@@ -546,9 +575,10 @@ Partial Class MainForm
         '
         Me.PictureBox64.Cursor = System.Windows.Forms.Cursors.Hand
         Me.PictureBox64.Image = CType(resources.GetObject("PictureBox64.Image"), System.Drawing.Image)
-        Me.PictureBox64.Location = New System.Drawing.Point(525, 260)
+        Me.PictureBox64.Location = New System.Drawing.Point(630, 312)
+        Me.PictureBox64.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.PictureBox64.Name = "PictureBox64"
-        Me.PictureBox64.Size = New System.Drawing.Size(276, 244)
+        Me.PictureBox64.Size = New System.Drawing.Size(331, 293)
         Me.PictureBox64.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox64.TabIndex = 9
         Me.PictureBox64.TabStop = False
@@ -558,9 +588,10 @@ Partial Class MainForm
         '
         Me.PictureBox63.Cursor = System.Windows.Forms.Cursors.Hand
         Me.PictureBox63.Image = CType(resources.GetObject("PictureBox63.Image"), System.Drawing.Image)
-        Me.PictureBox63.Location = New System.Drawing.Point(214, 260)
+        Me.PictureBox63.Location = New System.Drawing.Point(257, 312)
+        Me.PictureBox63.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.PictureBox63.Name = "PictureBox63"
-        Me.PictureBox63.Size = New System.Drawing.Size(276, 244)
+        Me.PictureBox63.Size = New System.Drawing.Size(331, 293)
         Me.PictureBox63.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox63.TabIndex = 8
         Me.PictureBox63.TabStop = False
@@ -570,9 +601,10 @@ Partial Class MainForm
         '
         Me.PictureBox62.Cursor = System.Windows.Forms.Cursors.Hand
         Me.PictureBox62.Image = CType(resources.GetObject("PictureBox62.Image"), System.Drawing.Image)
-        Me.PictureBox62.Location = New System.Drawing.Point(399, 8)
+        Me.PictureBox62.Location = New System.Drawing.Point(479, 10)
+        Me.PictureBox62.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.PictureBox62.Name = "PictureBox62"
-        Me.PictureBox62.Size = New System.Drawing.Size(276, 244)
+        Me.PictureBox62.Size = New System.Drawing.Size(331, 293)
         Me.PictureBox62.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox62.TabIndex = 7
         Me.PictureBox62.TabStop = False
@@ -582,9 +614,10 @@ Partial Class MainForm
         '
         Me.PictureBox61.Cursor = System.Windows.Forms.Cursors.Hand
         Me.PictureBox61.Image = CType(resources.GetObject("PictureBox61.Image"), System.Drawing.Image)
-        Me.PictureBox61.Location = New System.Drawing.Point(88, 8)
+        Me.PictureBox61.Location = New System.Drawing.Point(106, 10)
+        Me.PictureBox61.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.PictureBox61.Name = "PictureBox61"
-        Me.PictureBox61.Size = New System.Drawing.Size(276, 244)
+        Me.PictureBox61.Size = New System.Drawing.Size(331, 293)
         Me.PictureBox61.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox61.TabIndex = 6
         Me.PictureBox61.TabStop = False
@@ -598,9 +631,10 @@ Partial Class MainForm
         Me.TabPage7.Controls.Add(Me.PictureBox72)
         Me.TabPage7.Controls.Add(Me.PictureBox71)
         Me.TabPage7.Location = New System.Drawing.Point(4, 29)
+        Me.TabPage7.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.TabPage7.Name = "TabPage7"
-        Me.TabPage7.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage7.Size = New System.Drawing.Size(886, 518)
+        Me.TabPage7.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TabPage7.Size = New System.Drawing.Size(1065, 628)
         Me.TabPage7.TabIndex = 6
         Me.TabPage7.Text = "第七世代"
         '
@@ -608,9 +642,10 @@ Partial Class MainForm
         '
         Me.PictureBox74.Cursor = System.Windows.Forms.Cursors.Hand
         Me.PictureBox74.Image = CType(resources.GetObject("PictureBox74.Image"), System.Drawing.Image)
-        Me.PictureBox74.Location = New System.Drawing.Point(480, 207)
+        Me.PictureBox74.Location = New System.Drawing.Point(576, 248)
+        Me.PictureBox74.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.PictureBox74.Name = "PictureBox74"
-        Me.PictureBox74.Size = New System.Drawing.Size(340, 294)
+        Me.PictureBox74.Size = New System.Drawing.Size(408, 353)
         Me.PictureBox74.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox74.TabIndex = 13
         Me.PictureBox74.TabStop = False
@@ -620,9 +655,10 @@ Partial Class MainForm
         '
         Me.PictureBox73.Cursor = System.Windows.Forms.Cursors.Hand
         Me.PictureBox73.Image = CType(resources.GetObject("PictureBox73.Image"), System.Drawing.Image)
-        Me.PictureBox73.Location = New System.Drawing.Point(58, 75)
+        Me.PictureBox73.Location = New System.Drawing.Point(70, 90)
+        Me.PictureBox73.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.PictureBox73.Name = "PictureBox73"
-        Me.PictureBox73.Size = New System.Drawing.Size(340, 294)
+        Me.PictureBox73.Size = New System.Drawing.Size(408, 353)
         Me.PictureBox73.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox73.TabIndex = 12
         Me.PictureBox73.TabStop = False
@@ -632,9 +668,10 @@ Partial Class MainForm
         '
         Me.PictureBox72.Cursor = System.Windows.Forms.Cursors.Hand
         Me.PictureBox72.Image = CType(resources.GetObject("PictureBox72.Image"), System.Drawing.Image)
-        Me.PictureBox72.Location = New System.Drawing.Point(665, 12)
+        Me.PictureBox72.Location = New System.Drawing.Point(798, 14)
+        Me.PictureBox72.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.PictureBox72.Name = "PictureBox72"
-        Me.PictureBox72.Size = New System.Drawing.Size(196, 188)
+        Me.PictureBox72.Size = New System.Drawing.Size(235, 226)
         Me.PictureBox72.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox72.TabIndex = 11
         Me.PictureBox72.TabStop = False
@@ -644,9 +681,10 @@ Partial Class MainForm
         '
         Me.PictureBox71.Cursor = System.Windows.Forms.Cursors.Hand
         Me.PictureBox71.Image = CType(resources.GetObject("PictureBox71.Image"), System.Drawing.Image)
-        Me.PictureBox71.Location = New System.Drawing.Point(442, 12)
+        Me.PictureBox71.Location = New System.Drawing.Point(530, 14)
+        Me.PictureBox71.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.PictureBox71.Name = "PictureBox71"
-        Me.PictureBox71.Size = New System.Drawing.Size(196, 188)
+        Me.PictureBox71.Size = New System.Drawing.Size(235, 226)
         Me.PictureBox71.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox71.TabIndex = 10
         Me.PictureBox71.TabStop = False
@@ -658,9 +696,10 @@ Partial Class MainForm
         Me.TabPage8.Controls.Add(Me.PictureBox82)
         Me.TabPage8.Controls.Add(Me.PictureBox81)
         Me.TabPage8.Location = New System.Drawing.Point(4, 29)
+        Me.TabPage8.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.TabPage8.Name = "TabPage8"
-        Me.TabPage8.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage8.Size = New System.Drawing.Size(886, 518)
+        Me.TabPage8.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TabPage8.Size = New System.Drawing.Size(1065, 628)
         Me.TabPage8.TabIndex = 7
         Me.TabPage8.Text = "第八世代"
         '
@@ -668,9 +707,10 @@ Partial Class MainForm
         '
         Me.PictureBox82.Cursor = System.Windows.Forms.Cursors.Hand
         Me.PictureBox82.Image = CType(resources.GetObject("PictureBox82.Image"), System.Drawing.Image)
-        Me.PictureBox82.Location = New System.Drawing.Point(315, 68)
+        Me.PictureBox82.Location = New System.Drawing.Point(614, 77)
+        Me.PictureBox82.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.PictureBox82.Name = "PictureBox82"
-        Me.PictureBox82.Size = New System.Drawing.Size(251, 405)
+        Me.PictureBox82.Size = New System.Drawing.Size(301, 486)
         Me.PictureBox82.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox82.TabIndex = 11
         Me.PictureBox82.TabStop = False
@@ -680,9 +720,10 @@ Partial Class MainForm
         '
         Me.PictureBox81.Cursor = System.Windows.Forms.Cursors.Hand
         Me.PictureBox81.Image = CType(resources.GetObject("PictureBox81.Image"), System.Drawing.Image)
-        Me.PictureBox81.Location = New System.Drawing.Point(25, 42)
+        Me.PictureBox81.Location = New System.Drawing.Point(150, 77)
+        Me.PictureBox81.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.PictureBox81.Name = "PictureBox81"
-        Me.PictureBox81.Size = New System.Drawing.Size(251, 405)
+        Me.PictureBox81.Size = New System.Drawing.Size(301, 486)
         Me.PictureBox81.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox81.TabIndex = 10
         Me.PictureBox81.TabStop = False
@@ -694,14 +735,15 @@ Partial Class MainForm
         '
         'MainForm
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(120.0!, 120.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(144.0!, 144.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi
-        Me.ClientSize = New System.Drawing.Size(894, 580)
+        Me.ClientSize = New System.Drawing.Size(1073, 696)
         Me.Controls.Add(Me.GenerationTab)
         Me.Controls.Add(Me.MenuStrip1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MainMenuStrip = Me.MenuStrip1
+        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.MaximizeBox = False
         Me.Name = "MainForm"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
