@@ -12,8 +12,8 @@ Imports System.Runtime.InteropServices
 <Assembly: AssemblyDescription("精灵宝可梦启动器")>
 <Assembly: AssemblyCompany("")>
 <Assembly: AssemblyProduct("PokemonLauncher")>
-<Assembly: AssemblyCopyright("Copyright ©  2019")>
-<Assembly: AssemblyTrademark("Meowch")>
+<Assembly: AssemblyCopyright("Copyright ©  2020")>
+<Assembly: AssemblyTrademark("Nyachu")>
 
 <Assembly: ComVisible(False)>
 
@@ -31,5 +31,5 @@ Imports System.Runtime.InteropServices
 ' 方法是按如下所示使用“*”: :
 ' <Assembly: AssemblyVersion("1.0.*")>
 
-<Assembly: AssemblyVersion("1.0.2.1")>
-<Assembly: AssemblyFileVersion("1.0.2.1")>
+<Assembly: AssemblyVersion("1.0.3.0")>
+<Assembly: AssemblyFileVersion("1.0.3.0")>

@@ -668,7 +668,7 @@ Partial Class MainForm
         '
         Me.PictureBox82.Cursor = System.Windows.Forms.Cursors.Hand
         Me.PictureBox82.Image = CType(resources.GetObject("PictureBox82.Image"), System.Drawing.Image)
-        Me.PictureBox82.Location = New System.Drawing.Point(315, 68)
+        Me.PictureBox82.Location = New System.Drawing.Point(518, 55)
         Me.PictureBox82.Name = "PictureBox82"
         Me.PictureBox82.Size = New System.Drawing.Size(251, 405)
         Me.PictureBox82.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
@@ -680,7 +680,7 @@ Partial Class MainForm
         '
         Me.PictureBox81.Cursor = System.Windows.Forms.Cursors.Hand
         Me.PictureBox81.Image = CType(resources.GetObject("PictureBox81.Image"), System.Drawing.Image)
-        Me.PictureBox81.Location = New System.Drawing.Point(25, 42)
+        Me.PictureBox81.Location = New System.Drawing.Point(117, 55)
         Me.PictureBox81.Name = "PictureBox81"
         Me.PictureBox81.Size = New System.Drawing.Size(251, 405)
         Me.PictureBox81.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom

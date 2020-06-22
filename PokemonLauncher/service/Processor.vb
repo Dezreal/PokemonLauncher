@@ -1,12 +1,16 @@
 ﻿Public Class Processor
     Public Shared Sub Start(ByVal emulator As String, ByVal ROM As String)
-        If ROM = "" Then
-            MsgBox("启动失败，请检查ROM路径设置！")
+        If emulator = "" Then
+            MsgBox("请先设置模拟器路径！")
             Return
         End If
         Try
             emulator = """" & emulator & """"
-            ROM = """" & ROM & """"
+            If ROM = "" Then
+                MsgBox("未设置ROM路径，将仅启动模拟器！")
+            Else
+                ROM = """" & ROM & """"
+            End If
             Process.Start(emulator, ROM)
         Catch ex As Exception
             MsgBox(ex.Message)

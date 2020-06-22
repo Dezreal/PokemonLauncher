@@ -25,39 +25,40 @@ Partial Class SettingForm
         Me.components = New System.ComponentModel.Container()
         Dim ListViewGroup1 As System.Windows.Forms.ListViewGroup = New System.Windows.Forms.ListViewGroup("Emulator", System.Windows.Forms.HorizontalAlignment.Left)
         Dim ListViewGroup2 As System.Windows.Forms.ListViewGroup = New System.Windows.Forms.ListViewGroup("ROM", System.Windows.Forms.HorizontalAlignment.Left)
-        Dim ListViewItem1 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem(New String() {"VisualBoyAdvance", "-"}, 0)
-        Dim ListViewItem2 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem(New String() {"DeSmuME", "-"}, 1)
-        Dim ListViewItem3 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("红", 2)
-        Dim ListViewItem4 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem(New String() {"绿", ""}, 3)
-        Dim ListViewItem5 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem(New String() {"蓝", ""}, 4)
-        Dim ListViewItem6 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem(New String() {"皮卡丘", ""}, 5)
-        Dim ListViewItem7 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem(New String() {"金", ""}, 6)
-        Dim ListViewItem8 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem(New String() {"银", ""}, 7)
-        Dim ListViewItem9 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem(New String() {"水晶", "-"}, 8)
-        Dim ListViewItem10 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem(New String() {"红宝石", "-"}, 9)
-        Dim ListViewItem11 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem(New String() {"蓝宝石", "-"}, 10)
-        Dim ListViewItem12 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem(New String() {"火红", "-"}, 11)
-        Dim ListViewItem13 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem(New String() {"叶绿", "-"}, 12)
-        Dim ListViewItem14 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem(New String() {"绿宝石", "-"}, 13)
-        Dim ListViewItem15 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem(New String() {"钻石", "-"}, 14)
-        Dim ListViewItem16 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem(New String() {"珍珠", "-"}, 15)
-        Dim ListViewItem17 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem(New String() {"白金", "-"}, 16)
-        Dim ListViewItem18 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem(New String() {"心金", "-"}, 17)
-        Dim ListViewItem19 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem(New String() {"魂银", "-"}, 18)
-        Dim ListViewItem20 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("黑", 19)
-        Dim ListViewItem21 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("白", 20)
-        Dim ListViewItem22 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("黑2", 21)
-        Dim ListViewItem23 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("白2", 22)
-        Dim ListViewItem24 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("X", 23)
-        Dim ListViewItem25 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("Y", 24)
-        Dim ListViewItem26 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("欧米伽红宝石", 25)
-        Dim ListViewItem27 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("阿尔法蓝宝石", 26)
-        Dim ListViewItem28 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("太阳", 27)
-        Dim ListViewItem29 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("月亮", 28)
-        Dim ListViewItem30 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("究极之日", 29)
-        Dim ListViewItem31 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("究极之月", 30)
-        Dim ListViewItem32 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("剑", 31)
-        Dim ListViewItem33 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("盾", 32)
+        Dim ListViewItem1 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("VisualBoyAdvance", 0)
+        Dim ListViewItem2 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("DeSmuME", 1)
+        Dim ListViewItem3 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("Citra", 33)
+        Dim ListViewItem4 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("红", 2)
+        Dim ListViewItem5 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem(New String() {"绿", ""}, 3)
+        Dim ListViewItem6 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem(New String() {"蓝", ""}, 4)
+        Dim ListViewItem7 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem(New String() {"皮卡丘", ""}, 5)
+        Dim ListViewItem8 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem(New String() {"金", ""}, 6)
+        Dim ListViewItem9 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem(New String() {"银", ""}, 7)
+        Dim ListViewItem10 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("水晶", 8)
+        Dim ListViewItem11 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("红宝石", 9)
+        Dim ListViewItem12 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("蓝宝石", 10)
+        Dim ListViewItem13 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("火红", 11)
+        Dim ListViewItem14 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("叶绿", 12)
+        Dim ListViewItem15 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("绿宝石", 13)
+        Dim ListViewItem16 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("钻石", 14)
+        Dim ListViewItem17 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("珍珠", 15)
+        Dim ListViewItem18 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("白金", 16)
+        Dim ListViewItem19 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("心金", 17)
+        Dim ListViewItem20 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("魂银", 18)
+        Dim ListViewItem21 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("黑", 19)
+        Dim ListViewItem22 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("白", 20)
+        Dim ListViewItem23 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("黑2", 21)
+        Dim ListViewItem24 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("白2", 22)
+        Dim ListViewItem25 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("X", 23)
+        Dim ListViewItem26 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("Y", 24)
+        Dim ListViewItem27 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("欧米伽红宝石", 25)
+        Dim ListViewItem28 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("阿尔法蓝宝石", 26)
+        Dim ListViewItem29 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("太阳", 27)
+        Dim ListViewItem30 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("月亮", 28)
+        Dim ListViewItem31 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("究极之日", 29)
+        Dim ListViewItem32 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("究极之月", 30)
+        Dim ListViewItem33 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("剑", 31)
+        Dim ListViewItem34 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("盾", 32)
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(SettingForm))
         Me.ListView1 = New System.Windows.Forms.ListView()
         Me.ColumnHeader1 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
@@ -79,8 +80,7 @@ Partial Class SettingForm
         Me.ListView1.Groups.AddRange(New System.Windows.Forms.ListViewGroup() {ListViewGroup1, ListViewGroup2})
         ListViewItem1.Group = ListViewGroup1
         ListViewItem2.Group = ListViewGroup1
-        ListViewItem3.Group = ListViewGroup2
-        ListViewItem3.StateImageIndex = 0
+        ListViewItem3.Group = ListViewGroup1
         ListViewItem4.Group = ListViewGroup2
         ListViewItem4.StateImageIndex = 0
         ListViewItem5.Group = ListViewGroup2
@@ -112,6 +112,7 @@ Partial Class SettingForm
         ListViewItem18.Group = ListViewGroup2
         ListViewItem18.StateImageIndex = 0
         ListViewItem19.Group = ListViewGroup2
+        ListViewItem19.StateImageIndex = 0
         ListViewItem20.Group = ListViewGroup2
         ListViewItem21.Group = ListViewGroup2
         ListViewItem22.Group = ListViewGroup2
@@ -126,7 +127,8 @@ Partial Class SettingForm
         ListViewItem31.Group = ListViewGroup2
         ListViewItem32.Group = ListViewGroup2
         ListViewItem33.Group = ListViewGroup2
-        Me.ListView1.Items.AddRange(New System.Windows.Forms.ListViewItem() {ListViewItem1, ListViewItem2, ListViewItem3, ListViewItem4, ListViewItem5, ListViewItem6, ListViewItem7, ListViewItem8, ListViewItem9, ListViewItem10, ListViewItem11, ListViewItem12, ListViewItem13, ListViewItem14, ListViewItem15, ListViewItem16, ListViewItem17, ListViewItem18, ListViewItem19, ListViewItem20, ListViewItem21, ListViewItem22, ListViewItem23, ListViewItem24, ListViewItem25, ListViewItem26, ListViewItem27, ListViewItem28, ListViewItem29, ListViewItem30, ListViewItem31, ListViewItem32, ListViewItem33})
+        ListViewItem34.Group = ListViewGroup2
+        Me.ListView1.Items.AddRange(New System.Windows.Forms.ListViewItem() {ListViewItem1, ListViewItem2, ListViewItem3, ListViewItem4, ListViewItem5, ListViewItem6, ListViewItem7, ListViewItem8, ListViewItem9, ListViewItem10, ListViewItem11, ListViewItem12, ListViewItem13, ListViewItem14, ListViewItem15, ListViewItem16, ListViewItem17, ListViewItem18, ListViewItem19, ListViewItem20, ListViewItem21, ListViewItem22, ListViewItem23, ListViewItem24, ListViewItem25, ListViewItem26, ListViewItem27, ListViewItem28, ListViewItem29, ListViewItem30, ListViewItem31, ListViewItem32, ListViewItem33, ListViewItem34})
         Me.ListView1.LargeImageList = Me.ImageList2
         Me.ListView1.Location = New System.Drawing.Point(12, 12)
         Me.ListView1.MultiSelect = False
@@ -185,6 +187,7 @@ Partial Class SettingForm
         Me.ImageList2.Images.SetKeyName(30, "精靈寶可夢究極之月_封面_繁體中文.png")
         Me.ImageList2.Images.SetKeyName(31, "寶可夢_劍_封面_繁體中文.png")
         Me.ImageList2.Images.SetKeyName(32, "寶可夢_盾_封面_繁體中文.png")
+        Me.ImageList2.Images.SetKeyName(33, "citra.png")
         '
         'ImageList1
         '
@@ -223,6 +226,7 @@ Partial Class SettingForm
         Me.ImageList1.Images.SetKeyName(30, "精靈寶可夢究極之月_封面_繁體中文.png")
         Me.ImageList1.Images.SetKeyName(31, "寶可夢_劍_封面_繁體中文.png")
         Me.ImageList1.Images.SetKeyName(32, "寶可夢_盾_封面_繁體中文.png")
+        Me.ImageList1.Images.SetKeyName(33, "citra.png")
         '
         'Button1
         '

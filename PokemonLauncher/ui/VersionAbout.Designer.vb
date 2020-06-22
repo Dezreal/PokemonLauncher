@@ -48,7 +48,7 @@ Partial Class VersionAbout
         Me.MinimizeBox = False
         Me.Name = "VersionAbout"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "V1.0.2.1"
+        Me.Text = "V1.0.3.0"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 

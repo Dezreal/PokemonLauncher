@@ -131,35 +131,35 @@
     End Sub
 
     Private Sub PictureBox61_Click(sender As Object, e As EventArgs) Handles PictureBox61.Click
-        Processor.Start(ini.GetVal("Emulator", "3ds"), ini.GetVal("ROM", "X"))
+        Processor.Start(ini.GetVal("Emulator", "Citra"), ini.GetVal("ROM", "X"))
     End Sub
 
     Private Sub PictureBox62_Click(sender As Object, e As EventArgs) Handles PictureBox62.Click
-        Processor.Start(ini.GetVal("Emulator", "3ds"), ini.GetVal("ROM", "Y"))
+        Processor.Start(ini.GetVal("Emulator", "Citra"), ini.GetVal("ROM", "Y"))
     End Sub
 
     Private Sub PictureBox63_Click(sender As Object, e As EventArgs) Handles PictureBox63.Click
-        Processor.Start(ini.GetVal("Emulator", "3ds"), ini.GetVal("ROM", "欧米伽红宝石"))
+        Processor.Start(ini.GetVal("Emulator", "Citra"), ini.GetVal("ROM", "欧米伽红宝石"))
     End Sub
 
     Private Sub PictureBox64_Click(sender As Object, e As EventArgs) Handles PictureBox64.Click
-        Processor.Start(ini.GetVal("Emulator", "3ds"), ini.GetVal("ROM", "阿尔法蓝宝石"))
+        Processor.Start(ini.GetVal("Emulator", "Citra"), ini.GetVal("ROM", "阿尔法蓝宝石"))
     End Sub
 
     Private Sub PictureBox71_Click(sender As Object, e As EventArgs) Handles PictureBox71.Click
-        Processor.Start(ini.GetVal("Emulator", "3ds"), ini.GetVal("ROM", "太阳"))
+        Processor.Start(ini.GetVal("Emulator", "Citra"), ini.GetVal("ROM", "太阳"))
     End Sub
 
     Private Sub PictureBox72_Click(sender As Object, e As EventArgs) Handles PictureBox72.Click
-        Processor.Start(ini.GetVal("Emulator", "3ds"), ini.GetVal("ROM", "月亮"))
+        Processor.Start(ini.GetVal("Emulator", "Citra"), ini.GetVal("ROM", "月亮"))
     End Sub
 
     Private Sub PictureBox73_Click(sender As Object, e As EventArgs) Handles PictureBox73.Click
-        Processor.Start(ini.GetVal("Emulator", "3ds"), ini.GetVal("ROM", "究极之日"))
+        Processor.Start(ini.GetVal("Emulator", "Citra"), ini.GetVal("ROM", "究极之日"))
     End Sub
 
     Private Sub PictureBox74_Click(sender As Object, e As EventArgs) Handles PictureBox74.Click
-        Processor.Start(ini.GetVal("Emulator", "3ds"), ini.GetVal("ROM", "究极之月"))
+        Processor.Start(ini.GetVal("Emulator", "Citra"), ini.GetVal("ROM", "究极之月"))
     End Sub
 
     Private Sub PictureBox81_Click(sender As Object, e As EventArgs) Handles PictureBox81.Click
@@ -170,4 +170,11 @@
         Processor.Start(ini.GetVal("Emulator", "switch"), ini.GetVal("ROM", "盾"))
     End Sub
 
+    Private Sub TabPage8_Click(sender As Object, e As EventArgs) Handles TabPage8.Click
+
+    End Sub
+
+    Private Sub 关于ToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles 关于ToolStripMenuItem.Click
+
+    End Sub
 End Class

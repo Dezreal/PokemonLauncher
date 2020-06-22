@@ -38,7 +38,7 @@ Partial Class About
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(196, 50)
         Me.Label1.TabIndex = 0
-        Me.Label1.Text = "Pokemon Launcher " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "v1.0.2.1"
+        Me.Label1.Text = "Pokemon Launcher " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "v1.0.3.0"
         '
         'Label2
         '
@@ -46,9 +46,9 @@ Partial Class About
         Me.Label2.Font = New System.Drawing.Font("微软雅黑", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
         Me.Label2.Location = New System.Drawing.Point(31, 117)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(127, 20)
+        Me.Label2.Size = New System.Drawing.Size(118, 20)
         Me.Label2.TabIndex = 1
-        Me.Label2.Text = "2019 @Meowch"
+        Me.Label2.Text = "2020 @Nyachu"
         '
         'Label3
         '
